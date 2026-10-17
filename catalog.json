@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1792259480251,
+  "exportedAt": 1792276018878,
   "source": "bot-db",
   "items": [
     {
@@ -23,23 +23,23 @@
         ],
         "levels": [
           {
-            "speedPerHour": 20,
+            "speedPerHour": 20.0,
             "consumesPerHour": {}
           },
           {
-            "speedPerHour": 30,
+            "speedPerHour": 30.0,
             "consumesPerHour": {}
           },
           {
-            "speedPerHour": 70,
+            "speedPerHour": 70.0,
             "consumesPerHour": {
-              "Порцион": 1
+              "Порцион": 1.0
             }
           },
           {
-            "speedPerHour": 110,
+            "speedPerHour": 110.0,
             "consumesPerHour": {
-              "Порцион": 2
+              "Порцион": 2.0
             }
           }
         ]
@@ -64,25 +64,25 @@
         ],
         "levels": [
           {
-            "speedPerHour": 5,
+            "speedPerHour": 5.0,
             "consumesPerHour": {}
           },
           {
-            "speedPerHour": 12,
+            "speedPerHour": 12.0,
             "consumesPerHour": {
-              "Сахар": 1
+              "Сахар": 1.0
             }
           },
           {
-            "speedPerHour": 19,
+            "speedPerHour": 19.0,
             "consumesPerHour": {
-              "Сахар": 2
+              "Сахар": 2.0
             }
           },
           {
-            "speedPerHour": 26,
+            "speedPerHour": 26.0,
             "consumesPerHour": {
-              "Сахар": 3
+              "Сахар": 3.0
             }
           }
         ]
@@ -139,23 +139,23 @@
         ],
         "levels": [
           {
-            "speedPerHour": 2,
+            "speedPerHour": 2.0,
             "consumesPerHour": {}
           },
           {
-            "speedPerHour": 3,
+            "speedPerHour": 3.0,
             "consumesPerHour": {}
           },
           {
-            "speedPerHour": 6,
+            "speedPerHour": 6.0,
             "consumesPerHour": {
-              "Порцион": 1
+              "Порцион": 1.0
             }
           },
           {
-            "speedPerHour": 9,
+            "speedPerHour": 9.0,
             "consumesPerHour": {
-              "Порцион": 2
+              "Порцион": 2.0
             }
           }
         ]
@@ -211,23 +211,23 @@
         ],
         "levels": [
           {
-            "speedPerHour": 4,
+            "speedPerHour": 4.0,
             "consumesPerHour": {}
           },
           {
-            "speedPerHour": 6,
+            "speedPerHour": 6.0,
             "consumesPerHour": {}
           },
           {
-            "speedPerHour": 14,
+            "speedPerHour": 14.0,
             "consumesPerHour": {
-              "Порцион": 1
+              "Порцион": 1.0
             }
           },
           {
-            "speedPerHour": 22,
+            "speedPerHour": 22.0,
             "consumesPerHour": {
-              "Порцион": 2
+              "Порцион": 2.0
             }
           }
         ]
@@ -277,25 +277,25 @@
         ],
         "levels": [
           {
-            "speedPerHour": 20,
+            "speedPerHour": 20.0,
             "consumesPerHour": {}
           },
           {
-            "speedPerHour": 40,
+            "speedPerHour": 40.0,
             "consumesPerHour": {
-              "Уголь": 2
+              "Уголь": 2.0
             }
           },
           {
-            "speedPerHour": 70,
+            "speedPerHour": 70.0,
             "consumesPerHour": {
-              "Уголь": 5
+              "Уголь": 5.0
             }
           },
           {
-            "speedPerHour": 110,
+            "speedPerHour": 110.0,
             "consumesPerHour": {
-              "Уголь": 10
+              "Уголь": 10.0
             }
           }
         ]
@@ -320,25 +320,25 @@
         ],
         "levels": [
           {
-            "speedPerHour": 6,
+            "speedPerHour": 6.0,
             "consumesPerHour": {
               "Зерно": 1.5
             }
           },
           {
-            "speedPerHour": 6,
+            "speedPerHour": 6.0,
             "consumesPerHour": {
               "Зерно": 1.5
             }
           },
           {
-            "speedPerHour": 8,
+            "speedPerHour": 8.0,
             "consumesPerHour": {
-              "Зерно": 2
+              "Зерно": 2.0
             }
           },
           {
-            "speedPerHour": 10,
+            "speedPerHour": 10.0,
             "consumesPerHour": {
               "Зерно": 2.5
             }
@@ -420,23 +420,23 @@
         ],
         "levels": [
           {
-            "speedPerHour": 15,
+            "speedPerHour": 15.0,
             "consumesPerHour": {}
           },
           {
-            "speedPerHour": 22,
+            "speedPerHour": 22.0,
             "consumesPerHour": {}
           },
           {
-            "speedPerHour": 52,
+            "speedPerHour": 52.0,
             "consumesPerHour": {
-              "Порцион": 1
+              "Порцион": 1.0
             }
           },
           {
-            "speedPerHour": 82,
+            "speedPerHour": 82.0,
             "consumesPerHour": {
-              "Порцион": 2
+              "Порцион": 2.0
             }
           }
         ]
@@ -461,23 +461,23 @@
         ],
         "levels": [
           {
-            "speedPerHour": 2,
+            "speedPerHour": 2.0,
             "consumesPerHour": {}
           },
           {
-            "speedPerHour": 3,
+            "speedPerHour": 3.0,
             "consumesPerHour": {}
           },
           {
-            "speedPerHour": 6,
+            "speedPerHour": 6.0,
             "consumesPerHour": {
-              "Порцион": 1
+              "Порцион": 1.0
             }
           },
           {
-            "speedPerHour": 10,
+            "speedPerHour": 10.0,
             "consumesPerHour": {
-              "Порцион": 2
+              "Порцион": 2.0
             }
           }
         ]
@@ -827,27 +827,27 @@
         ],
         "levels": [
           {
-            "speedPerHour": 1,
+            "speedPerHour": 1.0,
             "consumesPerHour": {
-              "Порцион": 1
+              "Порцион": 1.0
             }
           },
           {
-            "speedPerHour": 2,
+            "speedPerHour": 2.0,
             "consumesPerHour": {
-              "Порцион": 2
+              "Порцион": 2.0
             }
           },
           {
-            "speedPerHour": 3,
+            "speedPerHour": 3.0,
             "consumesPerHour": {
-              "Порцион": 3
+              "Порцион": 3.0
             }
           },
           {
-            "speedPerHour": 4,
+            "speedPerHour": 4.0,
             "consumesPerHour": {
-              "Порцион": 4
+              "Порцион": 4.0
             }
           }
         ]
@@ -1821,7 +1821,7 @@
       }
     },
     {
-      "name": "Victory (I)",
+      "name": "Victory",
       "group": 3,
       "weight": 0,
       "sortOrder": 51,
