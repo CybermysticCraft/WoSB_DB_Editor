@@ -1,14 +1,20 @@
 #!/usr/bin/env python3
-"""CI-валидатор каталога WoSB (catalog.json).
+"""CI-валидатор каталога WoSB (catalog.json + renames.json).
 
 Повторяет правила парсера приложения (CatalogParser, Kotlin,
-app/src/main/java/.../data/catalog/CatalogFile.kt) и добавляет проверку,
-которая в приложении выполняется во время расчёта: обнаружение циклов
+app/src/main/java/.../data/catalog/CatalogFile.kt) и добавляет проверки,
+которые в приложении выполняются во время расчёта: обнаружение циклов
 в графе рецептов — порт DFS из CalcSession (тот же формат сообщения
-«Обнаружен цикл в рецептах: A → B → A»).
+«Обнаружен цикл в рецептах: A → B → A»),
+
+С v0.2 (решения владельца): секция groups — группы являются данными
+(id/emoji/title, назначаются админом), и журнал переименований
+renames.json (append-only; устройство мигрирует пользовательские данные
+по записям при «Обновить БД»). Секция groups отсутствует только в
+легаси-файлах — тогда действует встроенный список 1/2/3 приложения.
 
 Выход: 0 — ошибок нет (предупреждения допустимы), 1 — есть ошибки.
-Использование: python3 tools/validate_catalog.py catalog.json
+Использование: python3 tools/validate_catalog.py catalog.json [renames.json]
 """
 
 import json
@@ -41,6 +47,34 @@ def validate(data):
             f"Версия формата {fmt!r} выше поддерживаемой {FORMAT_VERSION} — обновите приложение"
         )
 
+    # --- Секция groups (v0.2): группы — данные, назначает админ ------
+    groups_raw = data.get("groups")
+    group_ids = None
+    if groups_raw is not None:
+        if not isinstance(groups_raw, list) or not groups_raw:
+            errors.append("Секция groups пуста или не список")
+            groups_raw = None
+        else:
+            group_ids = set()
+            for group in groups_raw:
+                if not isinstance(group, dict):
+                    errors.append("Элемент groups не объект")
+                    continue
+                gid = group.get("id")
+                if not isinstance(gid, int) or isinstance(gid, bool) or gid <= 0:
+                    errors.append(f"Группа {group!r}: id должен быть положительным целым числом")
+                    continue
+                if gid in group_ids:
+                    errors.append(f"Дубликат id группы: {gid}")
+                    continue
+                group_ids.add(gid)
+                emoji = group.get("emoji", "")
+                title = group.get("title", "")
+                if not isinstance(emoji, str) or not emoji.strip():
+                    errors.append(f"Группа {gid}: пустой emoji")
+                if not isinstance(title, str) or not title.strip():
+                    errors.append(f"Группа {gid}: пустое название")
+
     items = data.get("items")
     if not isinstance(items, list) or not items:
         errors.append("items отсутствует, не список или пуст")
@@ -67,7 +101,12 @@ def validate(data):
         if item.get("recipe") is not None and not item.get("isCraft"):
             warnings.append(f"«{name}»: есть рецепт, но флаг isCraft выключен")
         group = item.get("group", 1)
-        if group not in KNOWN_GROUPS:
+        if group_ids is not None:
+            # Секция groups есть: группа предмета обязана существовать.
+            if group not in group_ids:
+                errors.append(f"«{name}»: группа {group!r} отсутствует в секции groups")
+        elif group not in KNOWN_GROUPS:
+            # Легаси-файл без groups: работает встроенный список 1/2/3.
             warnings.append(
                 f"«{name}»: неизвестная группа {group!r} (приложение покажет как «Предметы»)"
             )
@@ -177,9 +216,55 @@ def validate(data):
     return errors, warnings
 
 
+def validate_renames(path, catalog_names):
+    """Журнал переименований (renames.json): append-only, применяется
+    устройствами по порядку при «Обновить БД» для миграции юзер-данных
+    (цены/дефолты/мануфактуры/планы) на новые имена."""
+    errors, warnings = [], []
+    try:
+        with open(path, encoding="utf-8") as fh:
+            data = json.load(fh)
+    except (OSError, json.JSONDecodeError) as exc:
+        return [f"renames.json: не удалось прочитать/разобрать JSON: {exc}"], []
+
+    if data.get("app") != APP_TAG:
+        errors.append(f"renames.json: чужая метка приложения (app = «{data.get('app')}»)")
+    renames = data.get("renames")
+    if not isinstance(renames, list):
+        errors.append("renames.json: renames не список")
+        return errors, warnings
+
+    for index, entry in enumerate(renames, start=1):
+        if not isinstance(entry, dict):
+            errors.append(f"renames.json: запись {index} не объект")
+            continue
+        old = entry.get("from")
+        new = entry.get("to")
+        if (
+            not isinstance(old, str) or not old.strip()
+            or not isinstance(new, str) or not new.strip()
+        ):
+            errors.append(f"renames.json: запись {index}: пустые from/to")
+            continue
+        if old == new:
+            errors.append(f"renames.json: запись {index}: переименование в то же имя («{old}»)")
+        at = entry.get("at", 0)
+        if not is_num(at) or at < 0:
+            errors.append(f"renames.json: запись {index}: некорректная метка времени at")
+        if new not in catalog_names:
+            warnings.append(
+                f"renames.json: запись {index}: «{old}» → «{new}», но предмета «{new}» "
+                "нет в текущем каталоге (возможно, позже переименован снова)"
+            )
+    return errors, warnings
+
+
 def main():
-    if len(sys.argv) != 2:
-        print("Использование: validate_catalog.py <catalog.json>", file=sys.stderr)
+    if len(sys.argv) not in (2, 3):
+        print(
+            "Использование: validate_catalog.py <catalog.json> [renames.json]",
+            file=sys.stderr,
+        )
         return 2
 
     try:
@@ -191,10 +276,21 @@ def main():
 
     errors, warnings = validate(data)
 
+    if len(sys.argv) == 3:
+        items = data.get("items") or []
+        catalog_names = {
+            i.get("name") for i in items if isinstance(i, dict) and isinstance(i.get("name"), str)
+        }
+        r_errors, r_warnings = validate_renames(sys.argv[2], catalog_names)
+        errors.extend(r_errors)
+        warnings.extend(r_warnings)
+
     items = data.get("items") or []
     n_craft = sum(1 for i in items if isinstance(i, dict) and i.get("isCraft"))
     n_manuf = sum(1 for i in items if isinstance(i, dict) and i.get("manufactory") is not None)
-    print(f"Каталог: {len(items)} предметов, {n_craft} с крафтом, {n_manuf} мануфактур")
+    n_groups = len(data.get("groups") or [])
+    groups_note = f", групп: {n_groups}" if n_groups else " (легаси без groups)"
+    print(f"Каталог: {len(items)} предметов, {n_craft} с крафтом, {n_manuf} мануфактур{groups_note}")
     for warning in warnings:
         print(f"ПРЕДУПРЕЖДЕНИЕ: {warning}")
     for error in errors:

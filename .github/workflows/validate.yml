@@ -25,5 +25,5 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Validate catalog.json
-        run: python tools/validate_catalog.py catalog.json
+      - name: Validate catalog.json + renames.json
+        run: python tools/validate_catalog.py catalog.json renames.json
