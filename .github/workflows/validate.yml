@@ -1,0 +1,29 @@
+name: Validate catalog
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "catalog.json"
+      - "tools/**"
+      - ".github/workflows/**"
+  pull_request:
+    paths:
+      - "catalog.json"
+      - "tools/**"
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validate catalog.json
+        run: python tools/validate_catalog.py catalog.json

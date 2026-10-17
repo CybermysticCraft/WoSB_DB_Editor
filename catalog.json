@@ -1,0 +1,2657 @@
+{
+  "app": "wosb-catalog",
+  "formatVersion": 1,
+  "exportedAt": 1792100362029,
+  "source": "bot-db",
+  "items": [
+    {
+      "name": "Древесина",
+      "group": 1,
+      "weight": 2,
+      "sortOrder": 7,
+      "isSea": true,
+      "isManufactory": true,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false,
+      "manufactory": {
+        "displayName": "Лесопилка",
+        "canUsePrisoners": true,
+        "consumables": [
+          "Порцион"
+        ],
+        "levels": [
+          {
+            "speedPerHour": 20,
+            "consumesPerHour": {}
+          },
+          {
+            "speedPerHour": 30,
+            "consumesPerHour": {}
+          },
+          {
+            "speedPerHour": 70,
+            "consumesPerHour": {
+              "Порцион": 1
+            }
+          },
+          {
+            "speedPerHour": 110,
+            "consumesPerHour": {
+              "Порцион": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ром",
+      "group": 1,
+      "weight": 6,
+      "sortOrder": 16,
+      "isSea": true,
+      "isManufactory": true,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false,
+      "manufactory": {
+        "displayName": "Производство рома",
+        "canUsePrisoners": true,
+        "consumables": [
+          "Сахар"
+        ],
+        "levels": [
+          {
+            "speedPerHour": 5,
+            "consumesPerHour": {}
+          },
+          {
+            "speedPerHour": 12,
+            "consumesPerHour": {
+              "Сахар": 1
+            }
+          },
+          {
+            "speedPerHour": 19,
+            "consumesPerHour": {
+              "Сахар": 2
+            }
+          },
+          {
+            "speedPerHour": 26,
+            "consumesPerHour": {
+              "Сахар": 3
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ткань",
+      "group": 1,
+      "weight": 1,
+      "sortOrder": 20,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": true,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 50.0,
+        "craftTimeHours": 20.0,
+        "materials": [
+          {
+            "name": "Животные",
+            "quantity": 10.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Зерно",
+      "group": 1,
+      "weight": 20,
+      "sortOrder": 11,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false
+    },
+    {
+      "name": "Смола",
+      "group": 1,
+      "weight": 2,
+      "sortOrder": 19,
+      "isSea": true,
+      "isManufactory": true,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false,
+      "manufactory": {
+        "displayName": "Производство смолы",
+        "canUsePrisoners": true,
+        "consumables": [
+          "Порцион"
+        ],
+        "levels": [
+          {
+            "speedPerHour": 2,
+            "consumesPerHour": {}
+          },
+          {
+            "speedPerHour": 3,
+            "consumesPerHour": {}
+          },
+          {
+            "speedPerHour": 6,
+            "consumesPerHour": {
+              "Порцион": 1
+            }
+          },
+          {
+            "speedPerHour": 9,
+            "consumesPerHour": {
+              "Порцион": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Свежее мясо",
+      "group": 1,
+      "weight": 5,
+      "sortOrder": 18,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": true,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 3.0,
+        "craftTimeHours": 1.0,
+        "materials": [
+          {
+            "name": "Животные",
+            "quantity": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Уголь",
+      "group": 1,
+      "weight": 5,
+      "sortOrder": 32,
+      "isSea": true,
+      "isManufactory": true,
+      "isCraft": true,
+      "isMarket": true,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 1.0,
+        "materials": [
+          {
+            "name": "Обломки",
+            "quantity": 2.0
+          }
+        ]
+      },
+      "manufactory": {
+        "displayName": "Угольная шахта",
+        "canUsePrisoners": true,
+        "consumables": [
+          "Порцион"
+        ],
+        "levels": [
+          {
+            "speedPerHour": 4,
+            "consumesPerHour": {}
+          },
+          {
+            "speedPerHour": 6,
+            "consumesPerHour": {}
+          },
+          {
+            "speedPerHour": 14,
+            "consumesPerHour": {
+              "Порцион": 1
+            }
+          },
+          {
+            "speedPerHour": 22,
+            "consumesPerHour": {
+              "Порцион": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Медь",
+      "group": 1,
+      "weight": 10,
+      "sortOrder": 13,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": true,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 5.0,
+        "craftTimeHours": 2.0,
+        "materials": [
+          {
+            "name": "Медная руда",
+            "quantity": 5.0
+          },
+          {
+            "name": "Уголь",
+            "quantity": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Вода",
+      "group": 1,
+      "weight": 2,
+      "sortOrder": 5,
+      "isSea": true,
+      "isManufactory": true,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false,
+      "manufactory": {
+        "displayName": "Добыча льда",
+        "canUsePrisoners": true,
+        "consumables": [
+          "Уголь"
+        ],
+        "levels": [
+          {
+            "speedPerHour": 20,
+            "consumesPerHour": {}
+          },
+          {
+            "speedPerHour": 40,
+            "consumesPerHour": {
+              "Уголь": 2
+            }
+          },
+          {
+            "speedPerHour": 70,
+            "consumesPerHour": {
+              "Уголь": 5
+            }
+          },
+          {
+            "speedPerHour": 110,
+            "consumesPerHour": {
+              "Уголь": 10
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Животные",
+      "group": 1,
+      "weight": 22,
+      "sortOrder": 10,
+      "isSea": true,
+      "isManufactory": true,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false,
+      "manufactory": {
+        "displayName": "Ферма",
+        "canUsePrisoners": true,
+        "consumables": [
+          "Зерно"
+        ],
+        "levels": [
+          {
+            "speedPerHour": 6,
+            "consumesPerHour": {
+              "Зерно": 1.5
+            }
+          },
+          {
+            "speedPerHour": 6,
+            "consumesPerHour": {
+              "Зерно": 1.5
+            }
+          },
+          {
+            "speedPerHour": 8,
+            "consumesPerHour": {
+              "Зерно": 2
+            }
+          },
+          {
+            "speedPerHour": 10,
+            "consumesPerHour": {
+              "Зерно": 2.5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Золото",
+      "group": 1,
+      "weight": 0,
+      "sortOrder": 12,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": false,
+      "isMarket": false,
+      "isCurrency": true
+    },
+    {
+      "name": "Припасы",
+      "group": 1,
+      "weight": 5,
+      "sortOrder": 14,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false
+    },
+    {
+      "name": "Рыба",
+      "group": 1,
+      "weight": 3,
+      "sortOrder": 28,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false
+    },
+    {
+      "name": "Обломки",
+      "group": 1,
+      "weight": 5,
+      "sortOrder": 23,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false
+    },
+    {
+      "name": "Вулканическая руда",
+      "group": 1,
+      "weight": 40,
+      "sortOrder": 6,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false
+    },
+    {
+      "name": "Железная руда",
+      "group": 1,
+      "weight": 6,
+      "sortOrder": 9,
+      "isSea": true,
+      "isManufactory": true,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false,
+      "manufactory": {
+        "displayName": "Железный рудник",
+        "canUsePrisoners": true,
+        "consumables": [
+          "Порцион"
+        ],
+        "levels": [
+          {
+            "speedPerHour": 15,
+            "consumesPerHour": {}
+          },
+          {
+            "speedPerHour": 22,
+            "consumesPerHour": {}
+          },
+          {
+            "speedPerHour": 52,
+            "consumesPerHour": {
+              "Порцион": 1
+            }
+          },
+          {
+            "speedPerHour": 82,
+            "consumesPerHour": {
+              "Порцион": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Медная руда",
+      "group": 1,
+      "weight": 20,
+      "sortOrder": 22,
+      "isSea": true,
+      "isManufactory": true,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false,
+      "manufactory": {
+        "displayName": "Медный рудник",
+        "canUsePrisoners": true,
+        "consumables": [
+          "Порцион"
+        ],
+        "levels": [
+          {
+            "speedPerHour": 2,
+            "consumesPerHour": {}
+          },
+          {
+            "speedPerHour": 3,
+            "consumesPerHour": {}
+          },
+          {
+            "speedPerHour": 6,
+            "consumesPerHour": {
+              "Порцион": 1
+            }
+          },
+          {
+            "speedPerHour": 10,
+            "consumesPerHour": {
+              "Порцион": 2
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "Антиквариат",
+      "group": 1,
+      "weight": 4,
+      "sortOrder": 1,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false
+    },
+    {
+      "name": "Китовий жир",
+      "group": 1,
+      "weight": 15,
+      "sortOrder": 17,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false
+    },
+    {
+      "name": "Череп Вуду",
+      "group": 1,
+      "weight": 7,
+      "sortOrder": 34,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false
+    },
+    {
+      "name": "Эскудо",
+      "group": 1,
+      "weight": 1,
+      "sortOrder": 35,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false
+    },
+    {
+      "name": "Сахар",
+      "group": 1,
+      "weight": 20,
+      "sortOrder": 29,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false
+    },
+    {
+      "name": "Железо",
+      "group": 1,
+      "weight": 4,
+      "sortOrder": 8,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": true,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 10.0,
+        "craftTimeHours": 1.0,
+        "materials": [
+          {
+            "name": "Железная руда",
+            "quantity": 10.0
+          },
+          {
+            "name": "Уголь",
+            "quantity": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Порцион",
+      "group": 1,
+      "weight": 40,
+      "sortOrder": 15,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": true,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 2.0,
+        "materials": [
+          {
+            "name": "Ром",
+            "quantity": 1.0
+          },
+          {
+            "name": "Припасы",
+            "quantity": 2.0
+          },
+          {
+            "name": "Свежее мясо",
+            "quantity": 3.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Пленные",
+      "group": 1,
+      "weight": 60,
+      "sortOrder": 27,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false
+    },
+    {
+      "name": "Балка",
+      "group": 1,
+      "weight": 150,
+      "sortOrder": 2,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": true,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 5.0,
+        "materials": [
+          {
+            "name": "Древесина",
+            "quantity": 100.0
+          },
+          {
+            "name": "Железо",
+            "quantity": 5.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Бронза",
+      "group": 1,
+      "weight": 90,
+      "sortOrder": 4,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": true,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 6.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 20.0
+          },
+          {
+            "name": "Медь",
+            "quantity": 10.0
+          },
+          {
+            "name": "Уголь",
+            "quantity": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Пластина",
+      "group": 1,
+      "weight": 100,
+      "sortOrder": 26,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": true,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 6.0,
+        "materials": [
+          {
+            "name": "Уголь",
+            "quantity": 15.0
+          },
+          {
+            "name": "Смола",
+            "quantity": 4.0
+          },
+          {
+            "name": "Железо",
+            "quantity": 30.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Парусина",
+      "group": 1,
+      "weight": 10,
+      "sortOrder": 24,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": true,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 3.0,
+        "materials": [
+          {
+            "name": "Ткань",
+            "quantity": 10.0
+          },
+          {
+            "name": "Смола",
+            "quantity": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Переборка",
+      "group": 1,
+      "weight": 210,
+      "sortOrder": 25,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": true,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 5.0,
+        "materials": [
+          {
+            "name": "Смола",
+            "quantity": 1.0
+          },
+          {
+            "name": "Железо",
+            "quantity": 70.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Снасти",
+      "group": 1,
+      "weight": 5,
+      "sortOrder": 30,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": true,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 1.0,
+        "materials": [
+          {
+            "name": "Древесина",
+            "quantity": 5.0
+          },
+          {
+            "name": "Железо",
+            "quantity": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Сундук",
+      "group": 1,
+      "weight": 2,
+      "sortOrder": 31,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false
+    },
+    {
+      "name": "Имперский чертёж",
+      "group": 1,
+      "weight": 1,
+      "sortOrder": 21,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": true,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 200.0,
+        "materials": [
+          {
+            "name": "Фрагмент чертежа",
+            "quantity": 100.0
+          },
+          {
+            "name": "Золото",
+            "quantity": 100000.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Фрагмент чертежа",
+      "group": 1,
+      "weight": 1,
+      "sortOrder": 33,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false
+    },
+    {
+      "name": "Боевая марка",
+      "group": 1,
+      "weight": 1,
+      "sortOrder": 3,
+      "isSea": true,
+      "isManufactory": true,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false,
+      "manufactory": {
+        "displayName": "Подпольный цех",
+        "canUsePrisoners": false,
+        "consumables": [
+          "Порцион"
+        ],
+        "levels": [
+          {
+            "speedPerHour": 1,
+            "consumesPerHour": {
+              "Порцион": 1
+            }
+          },
+          {
+            "speedPerHour": 2,
+            "consumesPerHour": {
+              "Порцион": 2
+            }
+          },
+          {
+            "speedPerHour": 3,
+            "consumesPerHour": {
+              "Порцион": 3
+            }
+          },
+          {
+            "speedPerHour": 4,
+            "consumesPerHour": {
+              "Порцион": 4
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "8-фн. Пушка",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 40,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 160.0
+          },
+          {
+            "name": "Ром",
+            "quantity": 40.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "8-фн. Кулеврина",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 41,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 240.0
+          },
+          {
+            "name": "Ром",
+            "quantity": 60.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "16-фн. Карронада",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 42,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 320.0
+          },
+          {
+            "name": "Ром",
+            "quantity": 80.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "6-фн. Сдвоенная",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 43,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 480.0
+          },
+          {
+            "name": "Ром",
+            "quantity": 120.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Алхимический огонь",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 49,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 7503.0
+          },
+          {
+            "name": "Ром",
+            "quantity": 1250.0
+          },
+          {
+            "name": "Медь",
+            "quantity": 583.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "18-фн. Пушка",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 44,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 303.0
+          },
+          {
+            "name": "Ром",
+            "quantity": 50.0
+          },
+          {
+            "name": "Медь",
+            "quantity": 23.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "18-фн. Длинная пушка",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 45,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 450.0
+          },
+          {
+            "name": "Ром",
+            "quantity": 75.0
+          },
+          {
+            "name": "Медь",
+            "quantity": 35.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "28-фн. Карронада",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 46,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 607.0
+          },
+          {
+            "name": "Ром",
+            "quantity": 100.0
+          },
+          {
+            "name": "Медь",
+            "quantity": 46.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "14-фн. Сдвоенная",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 47,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 900.0
+          },
+          {
+            "name": "Ром",
+            "quantity": 150.0
+          },
+          {
+            "name": "Медь",
+            "quantity": 70.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "10-фн. Строенная",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 48,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 1131.0
+          },
+          {
+            "name": "Ром",
+            "quantity": 187.0
+          },
+          {
+            "name": "Медь",
+            "quantity": 87.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Имперская бомбарда",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 50,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 6007.0
+          },
+          {
+            "name": "Ром",
+            "quantity": 1000.0
+          },
+          {
+            "name": "Медь",
+            "quantity": 466.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "La Couronne (I)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 53,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 200.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 1249.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 1620.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 1800.0
+          },
+          {
+            "name": "Пластина",
+            "quantity": 112.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "La Sirene (II)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 67,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 160.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 591.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 304.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 546.0
+          },
+          {
+            "name": "Пластина",
+            "quantity": 68.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mordaunt (III)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 72,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 120.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 304.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 141.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 338.0
+          },
+          {
+            "name": "Пластина",
+            "quantity": 33.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Flamouth (IV)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 83,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 60.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 186.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 62.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 231.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Мортира 6-дюйм.",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 61,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 1000.0
+          },
+          {
+            "name": "Ром",
+            "quantity": 250.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Мортира 7-дюйм.",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 62,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 2500.0
+          },
+          {
+            "name": "Ром",
+            "quantity": 625.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Мортира 8-дюйм.",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 63,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 4220.0
+          },
+          {
+            "name": "Ром",
+            "quantity": 703.0
+          },
+          {
+            "name": "Медь",
+            "quantity": 328.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Мортира 9-дюйм.",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 64,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 8441.0
+          },
+          {
+            "name": "Ром",
+            "quantity": 1406.0
+          },
+          {
+            "name": "Медь",
+            "quantity": 656.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Мортира 10-дюйм.",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 65,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 8380.0
+          },
+          {
+            "name": "Вулканическая руда",
+            "quantity": 675.0
+          },
+          {
+            "name": "Боевая марка",
+            "quantity": 84.0
+          },
+          {
+            "name": "Бронза",
+            "quantity": 129.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Мортира 11-дюйм.",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 66,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 12000.0
+          },
+          {
+            "name": "Вулканическая руда",
+            "quantity": 1012.0
+          },
+          {
+            "name": "Боевая марка",
+            "quantity": 126.0
+          },
+          {
+            "name": "Бронза",
+            "quantity": 194.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "32-фн. Пушка",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 56,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 373.0
+          },
+          {
+            "name": "Вулканическая руда",
+            "quantity": 24.0
+          },
+          {
+            "name": "Боевая марка",
+            "quantity": 3.0
+          },
+          {
+            "name": "Бронза",
+            "quantity": 4.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "32-фн. Длинная пушка",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 57,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 593.0
+          },
+          {
+            "name": "Вулканическая руда",
+            "quantity": 36.0
+          },
+          {
+            "name": "Боевая марка",
+            "quantity": 4.0
+          },
+          {
+            "name": "Бронза",
+            "quantity": 6.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "42-фн. Карронада",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 58,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 617.0
+          },
+          {
+            "name": "Вулканическая руда",
+            "quantity": 48.0
+          },
+          {
+            "name": "Боевая марка",
+            "quantity": 6.0
+          },
+          {
+            "name": "Бронза",
+            "quantity": 9.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "20-фн. Сдвоенная",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 59,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 990.0
+          },
+          {
+            "name": "Вулканическая руда",
+            "quantity": 72.0
+          },
+          {
+            "name": "Боевая марка",
+            "quantity": 9.0
+          },
+          {
+            "name": "Бронза",
+            "quantity": 13.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "16-фн. Строенная",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 60,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 1157.0
+          },
+          {
+            "name": "Вулканическая руда",
+            "quantity": 90.0
+          },
+          {
+            "name": "Боевая марка",
+            "quantity": 11.0
+          },
+          {
+            "name": "Бронза",
+            "quantity": 17.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kobukson (III)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 78,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 330.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 208.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 208.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 276.0
+          },
+          {
+            "name": "Пластина",
+            "quantity": 34.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Adventure (II)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 70,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 540.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 433.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 399.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 574.0
+          },
+          {
+            "name": "Пластина",
+            "quantity": 56.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Essex (IV)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 84,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 130.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 158.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 101.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 202.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Anson (III)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 80,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 365.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 259.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 214.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 292.0
+          },
+          {
+            "name": "Пластина",
+            "quantity": 38.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sans Pareil (II)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 69,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 740.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 472.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 472.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 472.0
+          },
+          {
+            "name": "Пластина",
+            "quantity": 79.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Victory (I)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 51,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 1650.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 934.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 2430.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 1451.0
+          },
+          {
+            "name": "Пластина",
+            "quantity": 186.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Чугунные",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 73,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 100.0,
+        "craftTimeHours": 1.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 8.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Малые поджигающие бочки",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 75,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 10.0,
+        "craftTimeHours": 1.0,
+        "materials": [
+          {
+            "name": "Древесина",
+            "quantity": 100.0
+          },
+          {
+            "name": "Китовий жир",
+            "quantity": 10.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Бомбы осколочные",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 76,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 3.0,
+        "craftTimeHours": 1.0,
+        "materials": [
+          {
+            "name": "Медь",
+            "quantity": 1.0
+          },
+          {
+            "name": "Железо",
+            "quantity": 5.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Брандскугели",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 74,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 100.0,
+        "craftTimeHours": 1.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 5.0
+          },
+          {
+            "name": "Китовий жир",
+            "quantity": 2.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Большие осколочные мины",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 77,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 10.0,
+        "craftTimeHours": 1.0,
+        "materials": [
+          {
+            "name": "Смола",
+            "quantity": 20.0
+          },
+          {
+            "name": "Железо",
+            "quantity": 200.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ingermanland (II)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 68,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 735.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 461.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 270.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 844.0
+          },
+          {
+            "name": "Пластина",
+            "quantity": 79.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Poltava (III)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 79,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 340.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 253.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 118.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 518.0
+          },
+          {
+            "name": "Пластина",
+            "quantity": 35.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "La Creole (V)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 87,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 11.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 79.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 24.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 197.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "La Royale (I)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 55,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 1090.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 771.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 2002.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 1665.0
+          },
+          {
+            "name": "Пластина",
+            "quantity": 118.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Строительная лицензия",
+      "group": 1,
+      "weight": 0,
+      "sortOrder": 82,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": false,
+      "isMarket": true,
+      "isCurrency": false
+    },
+    {
+      "name": "12 Apostolov (I)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 54,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 1830.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 1159.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 3038.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 832.0
+          },
+          {
+            "name": "Пластина",
+            "quantity": 208.0
+          },
+          {
+            "name": "Строительная лицензия",
+            "quantity": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Surprise (IV)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 85,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 130.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 158.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 56.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 360.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Le Cerf (VI)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 92,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 460.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 23.0
+          },
+          {
+            "name": "Ткань",
+            "quantity": 14.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Pickle (VII)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 97,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Древесина",
+            "quantity": 775.0
+          },
+          {
+            "name": "Железо",
+            "quantity": 135.0
+          },
+          {
+            "name": "Ткань",
+            "quantity": 30.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Black Wind (V)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 88,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 11.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 79.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 42.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 118.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "La Salamandre (VI)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 93,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 770.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 24.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Horizont (VII)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 98,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Древесина",
+            "quantity": 765.0
+          },
+          {
+            "name": "Железо",
+            "quantity": 220.0
+          },
+          {
+            "name": "Ткань",
+            "quantity": 30.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Russia (V)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 89,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 25.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 90.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 26.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 129.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mercury (VI)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 94,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 535.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 27.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Friede (VII)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 99,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Древесина",
+            "quantity": 850.0
+          },
+          {
+            "name": "Железо",
+            "quantity": 150.0
+          },
+          {
+            "name": "Ткань",
+            "quantity": 30.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Redoutable (II)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 71,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 775.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 585.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 591.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 349.0
+          },
+          {
+            "name": "Пластина",
+            "quantity": 84.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bellona (III)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 81,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 385.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 314.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 264.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 231.0
+          },
+          {
+            "name": "Пластина",
+            "quantity": 40.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Constitution (IV)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 86,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 145.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 197.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 124.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 152.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "San Martin (V)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 90,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 11.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 96.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 51.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 90.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Phoenix (VI)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 95,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 965.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 29.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Le Requin (V)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 91,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 11.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 68.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 39.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 129.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Polacca (VI)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 96,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTimeHours": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 620.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 21.0
+          }
+        ]
+      }
+    }
+  ]
+}
