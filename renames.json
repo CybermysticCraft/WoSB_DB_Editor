@@ -1,5 +1,11 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 1,
-  "renames": []
+  "renames": [
+    {
+      "from": "Victory (I)",
+      "to": "Victory",
+      "at": 1792275990098
+    }
+  ]
 }
