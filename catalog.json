@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
-  "formatVersion": 1,
-  "exportedAt": 1792100362029,
+  "formatVersion": 2,
+  "exportedAt": 1792259480251,
   "source": "bot-db",
   "items": [
     {
@@ -17,6 +17,7 @@
       "manufactory": {
         "displayName": "Лесопилка",
         "canUsePrisoners": true,
+        "availableInDangerousWaters": true,
         "consumables": [
           "Порцион"
         ],
@@ -57,6 +58,7 @@
       "manufactory": {
         "displayName": "Производство рома",
         "canUsePrisoners": true,
+        "availableInDangerousWaters": true,
         "consumables": [
           "Сахар"
         ],
@@ -98,7 +100,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 50.0,
-        "craftTimeHours": 20.0,
+        "craftTime": 20.0,
         "materials": [
           {
             "name": "Животные",
@@ -131,6 +133,7 @@
       "manufactory": {
         "displayName": "Производство смолы",
         "canUsePrisoners": true,
+        "availableInDangerousWaters": true,
         "consumables": [
           "Порцион"
         ],
@@ -170,7 +173,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 3.0,
-        "craftTimeHours": 1.0,
+        "craftTime": 1.0,
         "materials": [
           {
             "name": "Животные",
@@ -191,7 +194,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 1.0,
+        "craftTime": 1.0,
         "materials": [
           {
             "name": "Обломки",
@@ -202,6 +205,7 @@
       "manufactory": {
         "displayName": "Угольная шахта",
         "canUsePrisoners": true,
+        "availableInDangerousWaters": true,
         "consumables": [
           "Порцион"
         ],
@@ -241,7 +245,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 5.0,
-        "craftTimeHours": 2.0,
+        "craftTime": 2.0,
         "materials": [
           {
             "name": "Медная руда",
@@ -267,6 +271,7 @@
       "manufactory": {
         "displayName": "Добыча льда",
         "canUsePrisoners": true,
+        "availableInDangerousWaters": true,
         "consumables": [
           "Уголь"
         ],
@@ -309,6 +314,7 @@
       "manufactory": {
         "displayName": "Ферма",
         "canUsePrisoners": true,
+        "availableInDangerousWaters": true,
         "consumables": [
           "Зерно"
         ],
@@ -408,6 +414,7 @@
       "manufactory": {
         "displayName": "Железный рудник",
         "canUsePrisoners": true,
+        "availableInDangerousWaters": true,
         "consumables": [
           "Порцион"
         ],
@@ -448,6 +455,7 @@
       "manufactory": {
         "displayName": "Медный рудник",
         "canUsePrisoners": true,
+        "availableInDangerousWaters": true,
         "consumables": [
           "Порцион"
         ],
@@ -542,7 +550,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 10.0,
-        "craftTimeHours": 1.0,
+        "craftTime": 1.0,
         "materials": [
           {
             "name": "Железная руда",
@@ -567,7 +575,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 2.0,
+        "craftTime": 2.0,
         "materials": [
           {
             "name": "Ром",
@@ -607,7 +615,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 5.0,
+        "craftTime": 5.0,
         "materials": [
           {
             "name": "Древесина",
@@ -632,7 +640,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 6.0,
+        "craftTime": 6.0,
         "materials": [
           {
             "name": "Железо",
@@ -661,7 +669,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 6.0,
+        "craftTime": 6.0,
         "materials": [
           {
             "name": "Уголь",
@@ -690,7 +698,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 3.0,
+        "craftTime": 3.0,
         "materials": [
           {
             "name": "Ткань",
@@ -715,7 +723,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 5.0,
+        "craftTime": 5.0,
         "materials": [
           {
             "name": "Смола",
@@ -740,7 +748,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 1.0,
+        "craftTime": 1.0,
         "materials": [
           {
             "name": "Древесина",
@@ -776,7 +784,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 200.0,
+        "craftTime": 200.0,
         "materials": [
           {
             "name": "Фрагмент чертежа",
@@ -813,6 +821,7 @@
       "manufactory": {
         "displayName": "Подпольный цех",
         "canUsePrisoners": false,
+        "availableInDangerousWaters": true,
         "consumables": [
           "Порцион"
         ],
@@ -856,7 +865,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -881,7 +890,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -906,7 +915,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -931,7 +940,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -956,7 +965,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -985,7 +994,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -1014,7 +1023,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -1043,7 +1052,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -1072,7 +1081,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -1101,7 +1110,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -1130,7 +1139,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -1159,7 +1168,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -1196,7 +1205,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -1233,7 +1242,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -1270,7 +1279,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -1303,7 +1312,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -1328,7 +1337,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -1353,7 +1362,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -1382,7 +1391,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -1411,7 +1420,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -1444,7 +1453,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -1477,7 +1486,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -1510,7 +1519,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -1543,7 +1552,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -1576,7 +1585,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -1609,7 +1618,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -1642,7 +1651,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -1679,7 +1688,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -1716,7 +1725,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -1749,7 +1758,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -1786,7 +1795,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -1823,7 +1832,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -1860,7 +1869,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 100.0,
-        "craftTimeHours": 1.0,
+        "craftTime": 1.0,
         "materials": [
           {
             "name": "Железо",
@@ -1881,7 +1890,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 10.0,
-        "craftTimeHours": 1.0,
+        "craftTime": 1.0,
         "materials": [
           {
             "name": "Древесина",
@@ -1906,7 +1915,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 3.0,
-        "craftTimeHours": 1.0,
+        "craftTime": 1.0,
         "materials": [
           {
             "name": "Медь",
@@ -1931,7 +1940,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 100.0,
-        "craftTimeHours": 1.0,
+        "craftTime": 1.0,
         "materials": [
           {
             "name": "Железо",
@@ -1956,7 +1965,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 10.0,
-        "craftTimeHours": 1.0,
+        "craftTime": 1.0,
         "materials": [
           {
             "name": "Смола",
@@ -1981,7 +1990,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -2018,7 +2027,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -2055,7 +2064,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -2088,7 +2097,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -2136,7 +2145,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -2177,7 +2186,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -2210,7 +2219,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -2239,7 +2248,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Древесина",
@@ -2268,7 +2277,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -2301,7 +2310,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -2326,7 +2335,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Древесина",
@@ -2355,7 +2364,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -2388,7 +2397,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -2413,7 +2422,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Древесина",
@@ -2442,7 +2451,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -2479,7 +2488,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -2516,7 +2525,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -2549,7 +2558,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -2582,7 +2591,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -2607,7 +2616,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Боевая марка",
@@ -2640,7 +2649,7 @@
       "isCurrency": false,
       "recipe": {
         "outputQuantity": 1.0,
-        "craftTimeHours": 0.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",

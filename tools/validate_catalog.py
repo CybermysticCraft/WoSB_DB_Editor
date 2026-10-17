@@ -13,6 +13,13 @@ renames.json (append-only; устройство мигрирует пользо�
 по записям при «Обновить БД»). Секция groups отсутствует только в
 легаси-файлах — тогда действует встроенный список 1/2/3 приложения.
 
+С v0.3: формат 2 — ключ времени крафта переименован
+craftTimeHours → craftTime («крафт-время» измеряется в единицах, это
+расходник рецепта, а не часы; файлы формата 1 отклоняются), у
+мануфактур обязателен булев флаг availableInDangerousWaters
+(«доступна в опасных водах»: чекбокс ×1.25 в расчёте предлагается
+только отмеченным мануфактурам — по образцу canUsePrisoners).
+
 Выход: 0 — ошибок нет (предупреждения допустимы), 1 — есть ошибки.
 Использование: python3 tools/validate_catalog.py catalog.json [renames.json]
 """
@@ -22,7 +29,8 @@ import sys
 
 # Константы — зеркало CatalogFile.kt / ManufactoryLevels.kt приложения.
 APP_TAG = "wosb-catalog"
-FORMAT_VERSION = 1
+FORMAT_VERSION = 2          # формат 2: ключ крафт-времени — craftTime (v0.3)
+OLD_TIME_KEY = "craftTimeHours"  # устаревший ключ формата 1 — отказ
 LEVEL_COUNT = 4             # уровней у мануфактуры: либо 0, либо ровно 4
 PRISONERS_ITEM = "Пленные"  # служебный предмет-ресурс пленных
 KNOWN_GROUPS = {1, 2, 3}    # 1 «📦 Предметы», 2 «💣 Орудия», 3 «⛵ Корабли»
@@ -42,9 +50,16 @@ def validate(data):
     if data.get("app") != APP_TAG:
         errors.append(f"Это файл другого приложения (app = «{data.get('app')}»)")
     fmt = data.get("formatVersion")
-    if not isinstance(fmt, int) or isinstance(fmt, bool) or fmt > FORMAT_VERSION:
+    if not isinstance(fmt, int) or isinstance(fmt, bool):
+        errors.append(f"Версия формата {fmt!r} некорректна — ожидается целое число")
+    elif fmt > FORMAT_VERSION:
         errors.append(
-            f"Версия формата {fmt!r} выше поддерживаемой {FORMAT_VERSION} — обновите приложение"
+            f"Версия формата {fmt} выше поддерживаемой {FORMAT_VERSION} — обновите приложение"
+        )
+    elif fmt < FORMAT_VERSION:
+        errors.append(
+            f"Файл устаревшего формата {fmt}: репозиторий принимает только формат "
+            f"{FORMAT_VERSION} (крафт-время хранится в ключе craftTime)"
         )
 
     # --- Секция groups (v0.2): группы — данные, назначает админ ------
@@ -124,9 +139,18 @@ def validate(data):
             output = recipe.get("outputQuantity")
             if not is_num(output) or output <= 0:
                 errors.append(f"«{name}»: выход рецепта должен быть больше 0")
-            craft_time = recipe.get("craftTimeHours")
-            if not is_num(craft_time) or craft_time < 0:
-                errors.append(f"«{name}»: отрицательное время крафта")
+            if OLD_TIME_KEY in recipe:
+                errors.append(
+                    f"«{name}»: устаревший ключ {OLD_TIME_KEY} (формат 1) — "
+                    "переименуй в craftTime"
+                )
+            craft_time = recipe.get("craftTime")
+            if craft_time is None:
+                errors.append(
+                    f"«{name}»: в рецепте нет craftTime — крафт-время в единицах (не в часах)"
+                )
+            elif not is_num(craft_time) or craft_time < 0:
+                errors.append(f"«{name}»: крафт-время должно быть числом ≥ 0")
             materials = recipe.get("materials", [])
             if not isinstance(materials, list):
                 errors.append(f"«{name}»: materials не список")
@@ -171,6 +195,10 @@ def validate(data):
                                 f"«{name}»: ресурс уровня {index} «{resource}» "
                                 "отсутствует в каталоге"
                             )
+            if not isinstance(manufactory.get("availableInDangerousWaters"), bool):
+                errors.append(
+                    f"«{name}»: у мануфактуры нет булева флага availableInDangerousWaters"
+                )
             if manufactory.get("canUsePrisoners") and PRISONERS_ITEM not in names:
                 warnings.append(
                     f"«{name}»: canUsePrisoners, но предмета «{PRISONERS_ITEM}» нет в каталоге"
