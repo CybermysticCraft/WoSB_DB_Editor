@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1792288892710,
+  "exportedAt": 1792327842189,
   "source": "bot-db",
   "items": [
     {
@@ -2331,7 +2331,7 @@
       }
     },
     {
-      "name": "Surprise (IV)",
+      "name": "Unity (IV)",
       "group": 3,
       "weight": 0,
       "sortOrder": 85,
@@ -2352,7 +2352,7 @@
           },
           {
             "name": "Балка",
-            "quantity": 158.0
+            "quantity": 180.0
           },
           {
             "name": "Переборка",
