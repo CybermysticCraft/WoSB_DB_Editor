@@ -5,11 +5,13 @@ on:
     branches: [main]
     paths:
       - "catalog.json"
+      - "renames.json"
       - "tools/**"
       - ".github/workflows/**"
   pull_request:
     paths:
       - "catalog.json"
+      - "renames.json"
       - "tools/**"
   workflow_dispatch:
 
