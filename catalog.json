@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1792284515495,
+  "exportedAt": 1792288892710,
   "source": "bot-db",
   "items": [
     {
@@ -14,6 +14,8 @@
       "isCraft": false,
       "isMarket": true,
       "isCurrency": false,
+      "isToolMaterial": true,
+      "isShipMaterial": true,
       "manufactory": {
         "displayName": "Лесопилка",
         "canUsePrisoners": true,
@@ -55,6 +57,8 @@
       "isCraft": false,
       "isMarket": true,
       "isCurrency": false,
+      "isToolMaterial": true,
+      "isShipMaterial": false,
       "manufactory": {
         "displayName": "Производство рома",
         "canUsePrisoners": true,
@@ -98,6 +102,8 @@
       "isCraft": true,
       "isMarket": true,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": true,
       "recipe": {
         "outputQuantity": 50.0,
         "craftTime": 20.0,
@@ -118,7 +124,9 @@
       "isManufactory": false,
       "isCraft": false,
       "isMarket": true,
-      "isCurrency": false
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false
     },
     {
       "name": "Смола",
@@ -130,6 +138,8 @@
       "isCraft": false,
       "isMarket": true,
       "isCurrency": false,
+      "isToolMaterial": true,
+      "isShipMaterial": false,
       "manufactory": {
         "displayName": "Производство смолы",
         "canUsePrisoners": true,
@@ -171,6 +181,8 @@
       "isCraft": true,
       "isMarket": true,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 3.0,
         "craftTime": 1.0,
@@ -192,6 +204,8 @@
       "isCraft": true,
       "isMarket": true,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 1.0,
@@ -243,6 +257,8 @@
       "isCraft": true,
       "isMarket": true,
       "isCurrency": false,
+      "isToolMaterial": true,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 5.0,
         "craftTime": 2.0,
@@ -268,6 +284,8 @@
       "isCraft": false,
       "isMarket": true,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "manufactory": {
         "displayName": "Добыча льда",
         "canUsePrisoners": true,
@@ -311,6 +329,8 @@
       "isCraft": false,
       "isMarket": true,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "manufactory": {
         "displayName": "Ферма",
         "canUsePrisoners": true,
@@ -355,7 +375,9 @@
       "isManufactory": false,
       "isCraft": false,
       "isMarket": false,
-      "isCurrency": true
+      "isCurrency": true,
+      "isToolMaterial": false,
+      "isShipMaterial": false
     },
     {
       "name": "Припасы",
@@ -366,7 +388,9 @@
       "isManufactory": false,
       "isCraft": false,
       "isMarket": true,
-      "isCurrency": false
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false
     },
     {
       "name": "Рыба",
@@ -377,7 +401,9 @@
       "isManufactory": false,
       "isCraft": false,
       "isMarket": true,
-      "isCurrency": false
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false
     },
     {
       "name": "Обломки",
@@ -388,7 +414,9 @@
       "isManufactory": false,
       "isCraft": false,
       "isMarket": true,
-      "isCurrency": false
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false
     },
     {
       "name": "Вулканическая руда",
@@ -399,7 +427,9 @@
       "isManufactory": false,
       "isCraft": false,
       "isMarket": true,
-      "isCurrency": false
+      "isCurrency": false,
+      "isToolMaterial": true,
+      "isShipMaterial": false
     },
     {
       "name": "Железная руда",
@@ -411,6 +441,8 @@
       "isCraft": false,
       "isMarket": true,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "manufactory": {
         "displayName": "Железный рудник",
         "canUsePrisoners": true,
@@ -452,6 +484,8 @@
       "isCraft": false,
       "isMarket": true,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "manufactory": {
         "displayName": "Медный рудник",
         "canUsePrisoners": true,
@@ -492,7 +526,9 @@
       "isManufactory": false,
       "isCraft": false,
       "isMarket": true,
-      "isCurrency": false
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false
     },
     {
       "name": "Китовий жир",
@@ -503,7 +539,9 @@
       "isManufactory": false,
       "isCraft": false,
       "isMarket": true,
-      "isCurrency": false
+      "isCurrency": false,
+      "isToolMaterial": true,
+      "isShipMaterial": false
     },
     {
       "name": "Череп Вуду",
@@ -514,7 +552,9 @@
       "isManufactory": false,
       "isCraft": false,
       "isMarket": true,
-      "isCurrency": false
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false
     },
     {
       "name": "Эскудо",
@@ -525,7 +565,9 @@
       "isManufactory": false,
       "isCraft": false,
       "isMarket": true,
-      "isCurrency": false
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false
     },
     {
       "name": "Сахар",
@@ -536,7 +578,9 @@
       "isManufactory": false,
       "isCraft": false,
       "isMarket": true,
-      "isCurrency": false
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false
     },
     {
       "name": "Железо",
@@ -548,6 +592,8 @@
       "isCraft": true,
       "isMarket": true,
       "isCurrency": false,
+      "isToolMaterial": true,
+      "isShipMaterial": true,
       "recipe": {
         "outputQuantity": 10.0,
         "craftTime": 1.0,
@@ -573,6 +619,8 @@
       "isCraft": true,
       "isMarket": true,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 2.0,
@@ -601,7 +649,9 @@
       "isManufactory": false,
       "isCraft": false,
       "isMarket": true,
-      "isCurrency": false
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false
     },
     {
       "name": "Балка",
@@ -613,6 +663,8 @@
       "isCraft": true,
       "isMarket": true,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": true,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 5.0,
@@ -638,6 +690,8 @@
       "isCraft": true,
       "isMarket": true,
       "isCurrency": false,
+      "isToolMaterial": true,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 6.0,
@@ -667,6 +721,8 @@
       "isCraft": true,
       "isMarket": true,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": true,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 6.0,
@@ -696,6 +752,8 @@
       "isCraft": true,
       "isMarket": true,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": true,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 3.0,
@@ -721,6 +779,8 @@
       "isCraft": true,
       "isMarket": true,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": true,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 5.0,
@@ -746,6 +806,8 @@
       "isCraft": true,
       "isMarket": true,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 1.0,
@@ -770,7 +832,9 @@
       "isManufactory": false,
       "isCraft": false,
       "isMarket": true,
-      "isCurrency": false
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false
     },
     {
       "name": "Имперский чертёж",
@@ -782,6 +846,8 @@
       "isCraft": true,
       "isMarket": true,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 200.0,
@@ -806,7 +872,9 @@
       "isManufactory": false,
       "isCraft": false,
       "isMarket": true,
-      "isCurrency": false
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false
     },
     {
       "name": "Боевая марка",
@@ -818,6 +886,8 @@
       "isCraft": false,
       "isMarket": true,
       "isCurrency": false,
+      "isToolMaterial": true,
+      "isShipMaterial": true,
       "manufactory": {
         "displayName": "Подпольный цех",
         "canUsePrisoners": false,
@@ -863,6 +933,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -888,6 +960,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -913,6 +987,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -938,6 +1014,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -963,6 +1041,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -992,6 +1072,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1021,6 +1103,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1050,6 +1134,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1079,6 +1165,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1108,6 +1196,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1137,6 +1227,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1166,6 +1258,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1203,6 +1297,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1240,6 +1336,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1277,6 +1375,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1310,6 +1410,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1335,6 +1437,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1360,6 +1464,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1389,6 +1495,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1418,6 +1526,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1451,6 +1561,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1484,6 +1596,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1517,6 +1631,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1550,6 +1666,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1583,6 +1701,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1616,6 +1736,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1649,6 +1771,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1686,6 +1810,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1723,6 +1849,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1756,6 +1884,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1793,6 +1923,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1830,6 +1962,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1867,9 +2001,11 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 100.0,
-        "craftTime": 1.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -1888,9 +2024,11 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 10.0,
-        "craftTime": 1.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Древесина",
@@ -1913,9 +2051,11 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 3.0,
-        "craftTime": 1.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Медь",
@@ -1938,9 +2078,11 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 100.0,
-        "craftTime": 1.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Железо",
@@ -1963,9 +2105,11 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 10.0,
-        "craftTime": 1.0,
+        "craftTime": 0.0,
         "materials": [
           {
             "name": "Смола",
@@ -1988,6 +2132,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -2025,6 +2171,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -2062,6 +2210,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -2095,6 +2245,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -2131,7 +2283,9 @@
       "isManufactory": false,
       "isCraft": false,
       "isMarket": true,
-      "isCurrency": false
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": true
     },
     {
       "name": "12 Apostolov (I)",
@@ -2143,6 +2297,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -2184,6 +2340,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -2217,6 +2375,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -2246,6 +2406,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -2275,6 +2437,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -2308,6 +2472,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -2333,6 +2499,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -2362,6 +2530,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -2395,6 +2565,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -2420,6 +2592,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -2449,6 +2623,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -2486,6 +2662,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -2523,6 +2701,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -2556,6 +2736,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -2589,6 +2771,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -2614,6 +2798,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -2647,6 +2833,8 @@
       "isCraft": true,
       "isMarket": false,
       "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -2667,17 +2855,20 @@
     {
       "id": 1,
       "emoji": "📦",
-      "title": "Предметы"
+      "title": "Ресурсы",
+      "kind": "resources"
     },
     {
       "id": 2,
       "emoji": "💣",
-      "title": "Орудия"
+      "title": "Орудия",
+      "kind": "tools"
     },
     {
       "id": 3,
       "emoji": "⛵",
-      "title": "Корабли"
+      "title": "Корабли",
+      "kind": "ships"
     }
   ]
 }

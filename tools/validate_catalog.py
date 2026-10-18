@@ -20,6 +20,15 @@ craftTimeHours → craftTime («крафт-время» измеряется в 
 («доступна в опасных водах»: чекбокс ×1.25 в расчёте предлагается
 только отмеченным мануфактурам — по образцу canUsePrisoners).
 
+С v0.4 (решение владельца, wosb-android-43): группы получают kind
+(resources / tools / ships; отсутствие — resources); у юнит-групп
+(орудия/корабли) предметы — только крафт: без веса, без
+крафт-времени, без мануфактуры и чужих источников, у кораблей выход
+всегда 1 шт.; материалы рецептов орудий/кораблей обязаны иметь
+флаг isToolMaterial / isShipMaterial (фильтр выбора в редакторе
+приложения). Новые ключи опциональны: старые версии приложения
+их молча пропускают (ignoreUnknownKeys).
+
 Выход: 0 — ошибок нет (предупреждения допустимы), 1 — есть ошибки.
 Использование: python3 tools/validate_catalog.py catalog.json [renames.json]
 """
@@ -33,7 +42,14 @@ FORMAT_VERSION = 2          # формат 2: ключ крафт-времени
 OLD_TIME_KEY = "craftTimeHours"  # устаревший ключ формата 1 — отказ
 LEVEL_COUNT = 4             # уровней у мануфактуры: либо 0, либо ровно 4
 PRISONERS_ITEM = "Пленные"  # служебный предмет-ресурс пленных
-KNOWN_GROUPS = {1, 2, 3}    # 1 «📦 Предметы», 2 «💣 Орудия», 3 «⛵ Корабли»
+KNOWN_GROUPS = {1, 2, 3}    # 1 «📦 Ресурсы», 2 «💣 Орудия», 3 «⛵ Корабли»
+
+# Семантика групп (v0.4): kind в секции groups; отсутствие — resources.
+GROUP_KINDS = {"resources", "tools", "ships"}
+UNIT_KINDS = {"tools", "ships"}
+UNIT_TITLES = {"tools": "орудий", "ships": "кораблей"}
+MATERIAL_FLAG = {"tools": "isToolMaterial", "ships": "isShipMaterial"}
+FLAG_LABEL = {"tools": "«Материал для орудий»", "ships": "«Материал для кораблей»"}
 
 
 def is_num(value):
@@ -65,6 +81,7 @@ def validate(data):
     # --- Секция groups (v0.2): группы — данные, назначает админ ------
     groups_raw = data.get("groups")
     group_ids = None
+    kinds_by_id = {}  # id группы -> kind (v0.4); пусто — легаси (все resources)
     if groups_raw is not None:
         if not isinstance(groups_raw, list) or not groups_raw:
             errors.append("Секция groups пуста или не список")
@@ -89,6 +106,21 @@ def validate(data):
                     errors.append(f"Группа {gid}: пустой emoji")
                 if not isinstance(title, str) or not title.strip():
                     errors.append(f"Группа {gid}: пустое название")
+                # kind (v0.4): отсутствие ключа — resources (легаси).
+                kind = group.get("kind", "resources")
+                if kind not in GROUP_KINDS:
+                    errors.append(
+                        f"Группа {gid}: неизвестный kind {kind!r} "
+                        "(ожидаются resources/tools/ships)"
+                    )
+                    kind = "resources"
+                kinds_by_id[gid] = kind
+
+    def kind_of(item):
+        """Семантика группы предмета: для легаси-файлов — resources."""
+        if not group_ids:
+            return "resources"
+        return kinds_by_id.get(item.get("group", 1), "resources")
 
     items = data.get("items")
     if not isinstance(items, list) or not items:
@@ -123,8 +155,23 @@ def validate(data):
         elif group not in KNOWN_GROUPS:
             # Легаси-файл без groups: работает встроенный список 1/2/3.
             warnings.append(
-                f"«{name}»: неизвестная группа {group!r} (приложение покажет как «Предметы»)"
+                f"«{name}»: неизвестная группа {group!r} (приложение покажет как «Ресурсы»)"
             )
+
+        # Юнит-группы (v0.4): орудия/корабли — только крафт, без веса,
+        # без мануфактуры и чужих источников (крафт-время/выход — в
+        # проходе 2, вместе с рецептами).
+        kind = kind_of(item)
+        if kind in UNIT_KINDS:
+            title_kind = UNIT_TITLES[kind]
+            if not item.get("isCraft") or item.get("recipe") is None:
+                errors.append(f"«{name}»: предмет группы {title_kind} создаётся только крафтом")
+            if item.get("isSea") or item.get("isManufactory") or item.get("isMarket") or item.get("isCurrency"):
+                errors.append(f"«{name}»: у {title_kind} источник только «Крафт»")
+            if weight != 0:
+                errors.append(f"«{name}»: у {title_kind} нет веса")
+            if item.get("manufactory") is not None:
+                errors.append(f"«{name}»: у {title_kind} нет мануфактуры")
 
     # --- Проход 2: ссылки, рецепты, мануфактуры ----------------------
     for item in items:
@@ -163,6 +210,30 @@ def validate(data):
                     if not is_num(qty) or qty <= 0:
                         errors.append(
                             f"«{name}»: количество материала «{mname}» должно быть больше 0"
+                        )
+
+            # Юнит-группы (v0.4): у орудий/кораблей нет крафт-времени,
+            # у кораблей выход всегда 1; материалы — только с флагом.
+            kind = kind_of(item)
+            if kind in UNIT_KINDS and recipe is not None:
+                title_kind = UNIT_TITLES[kind]
+                craft_time = recipe.get("craftTime")
+                if is_num(craft_time) and craft_time != 0:
+                    errors.append(f"«{name}»: у {title_kind} нет крафт-времени")
+                output = recipe.get("outputQuantity")
+                if kind == "ships" and is_num(output) and output != 1:
+                    errors.append(f"«{name}»: выход корабля всегда 1 шт.")
+                items_by_name = {
+                    i.get("name"): i
+                    for i in items
+                    if isinstance(i, dict) and isinstance(i.get("name"), str)
+                }
+                for material in recipe.get("materials", []):
+                    mitem = items_by_name.get(material.get("name"))
+                    if mitem is not None and not mitem.get(MATERIAL_FLAG[kind], False):
+                        errors.append(
+                            f"«{name}»: материал «{material.get('name')}» "
+                            f"без флага {FLAG_LABEL[kind]}"
                         )
 
         manufactory = item.get("manufactory")
