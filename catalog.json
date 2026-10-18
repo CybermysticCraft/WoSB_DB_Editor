@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1792276018878,
+  "exportedAt": 1792284515495,
   "source": "bot-db",
   "items": [
     {
@@ -821,7 +821,7 @@
       "manufactory": {
         "displayName": "Подпольный цех",
         "canUsePrisoners": false,
-        "availableInDangerousWaters": true,
+        "availableInDangerousWaters": false,
         "consumables": [
           "Порцион"
         ],
