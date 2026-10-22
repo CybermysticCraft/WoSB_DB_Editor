@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1792711609657,
+  "exportedAt": 1792713076550,
   "source": "bot-db",
   "items": [
     {
@@ -1865,11 +1865,11 @@
           },
           {
             "name": "Переборка",
-            "quantity": 101.0
+            "quantity": 107.0
           },
           {
             "name": "Парусина",
-            "quantity": 202.0
+            "quantity": 208.0
           }
         ]
       }
@@ -1896,15 +1896,15 @@
           },
           {
             "name": "Балка",
-            "quantity": 259.0
+            "quantity": 253.0
           },
           {
             "name": "Переборка",
-            "quantity": 214.0
+            "quantity": 225.0
           },
           {
             "name": "Парусина",
-            "quantity": 292.0
+            "quantity": 309.0
           },
           {
             "name": "Пластина",
@@ -1935,15 +1935,15 @@
           },
           {
             "name": "Балка",
-            "quantity": 472.0
+            "quantity": 467.0
           },
           {
             "name": "Переборка",
-            "quantity": 472.0
+            "quantity": 489.0
           },
           {
             "name": "Парусина",
-            "quantity": 472.0
+            "quantity": 489.0
           },
           {
             "name": "Пластина",
@@ -1974,15 +1974,15 @@
           },
           {
             "name": "Балка",
-            "quantity": 934.0
+            "quantity": 939.0
           },
           {
             "name": "Переборка",
-            "quantity": 2430.0
+            "quantity": 2340.0
           },
           {
             "name": "Парусина",
-            "quantity": 1451.0
+            "quantity": 1406.0
           },
           {
             "name": "Пластина",
@@ -2400,7 +2400,7 @@
       "name": "Pickle (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 103,
+      "sortOrder": 104,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2414,11 +2414,11 @@
         "materials": [
           {
             "name": "Древесина",
-            "quantity": 775.0
+            "quantity": 760.0
           },
           {
             "name": "Железо",
-            "quantity": 135.0
+            "quantity": 245.0
           },
           {
             "name": "Ткань",
@@ -2453,7 +2453,7 @@
           },
           {
             "name": "Переборка",
-            "quantity": 42.0
+            "quantity": 43.0
           },
           {
             "name": "Парусина",
@@ -2466,7 +2466,7 @@
       "name": "La Salamandre (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 102,
+      "sortOrder": 103,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2497,7 +2497,7 @@
       "name": "Horizont (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 104,
+      "sortOrder": 105,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2590,7 +2590,7 @@
       "name": "Friede (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 105,
+      "sortOrder": 106,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3099,6 +3099,33 @@
           {
             "name": "Парусина",
             "quantity": 107.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Fair American (VI)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 102,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Железо",
+            "quantity": 800.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 24.0
           }
         ]
       }
