@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1792813081446,
+  "exportedAt": 1792813299647,
   "source": "bot-db",
   "items": [
     {
@@ -847,7 +847,7 @@
       "isMarket": true,
       "isCurrency": false,
       "isToolMaterial": false,
-      "isShipMaterial": false,
+      "isShipMaterial": true,
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 200.0,
@@ -874,7 +874,7 @@
       "isMarket": true,
       "isCurrency": false,
       "isToolMaterial": false,
-      "isShipMaterial": false
+      "isShipMaterial": true
     },
     {
       "name": "Боевая марка",
@@ -3235,6 +3235,29 @@
           {
             "name": "Пластина",
             "quantity": 84.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Balloon (VI)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 110,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Эскудо",
+            "quantity": 1000.0
           }
         ]
       }
