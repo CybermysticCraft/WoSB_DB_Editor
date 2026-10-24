@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1792812616816,
+  "exportedAt": 1792813081446,
   "source": "bot-db",
   "items": [
     {
@@ -567,7 +567,7 @@
       "isMarket": true,
       "isCurrency": false,
       "isToolMaterial": false,
-      "isShipMaterial": false
+      "isShipMaterial": true
     },
     {
       "name": "Сахар",
