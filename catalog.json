@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1792814399427,
+  "exportedAt": 1792814571906,
   "source": "bot-db",
   "items": [
     {
@@ -3285,6 +3285,33 @@
           {
             "name": "Эскудо",
             "quantity": 20.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Devourer (IV)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 151,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Имперский чертёж",
+            "quantity": 1.0
+          },
+          {
+            "name": "Эскудо",
+            "quantity": 150.0
           }
         ]
       }
