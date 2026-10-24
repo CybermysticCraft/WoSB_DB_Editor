@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1792849842321,
+  "exportedAt": 1792851202946,
   "source": "bot-db",
   "items": [
     {
@@ -2369,7 +2369,7 @@
       "name": "Le Cerf (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 105,
+      "sortOrder": 152,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2400,7 +2400,7 @@
       "name": "Pickle (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 153,
+      "sortOrder": 156,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2466,7 +2466,7 @@
       "name": "La Salamandre (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 150,
+      "sortOrder": 154,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2497,7 +2497,7 @@
       "name": "Horizont (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 151,
+      "sortOrder": 155,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2563,7 +2563,7 @@
       "name": "Mercury (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 106,
+      "sortOrder": 150,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2577,11 +2577,11 @@
         "materials": [
           {
             "name": "Железо",
-            "quantity": 535.0
+            "quantity": 555.0
           },
           {
             "name": "Балка",
-            "quantity": 27.0
+            "quantity": 31.0
           }
         ]
       }
@@ -2590,7 +2590,7 @@
       "name": "Friede (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 152,
+      "sortOrder": 153,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2604,11 +2604,11 @@
         "materials": [
           {
             "name": "Древесина",
-            "quantity": 850.0
+            "quantity": 990.0
           },
           {
             "name": "Железо",
-            "quantity": 150.0
+            "quantity": 165.0
           },
           {
             "name": "Ткань",
@@ -2769,7 +2769,7 @@
       "name": "Phoenix (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 107,
+      "sortOrder": 110,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2796,7 +2796,7 @@
       "name": "Le Requin (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 104,
+      "sortOrder": 108,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2810,7 +2810,7 @@
         "materials": [
           {
             "name": "Железо",
-            "quantity": 770.0
+            "quantity": 710.0
           },
           {
             "name": "Балка",
@@ -3107,7 +3107,7 @@
       "name": "Fair American (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 110,
+      "sortOrder": 151,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3243,7 +3243,7 @@
       "name": "Balloon (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 108,
+      "sortOrder": 107,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3393,6 +3393,75 @@
           {
             "name": "Эскудо",
             "quantity": 10000.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Golden Apostle (VI)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 106,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 250.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Shunsen (VI)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 105,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 750.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Savannah (VI)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 104,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 750.0
           }
         ]
       }
