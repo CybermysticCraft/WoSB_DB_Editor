@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1792815274001,
+  "exportedAt": 1792849842321,
   "source": "bot-db",
   "items": [
     {
@@ -2400,7 +2400,7 @@
       "name": "Pickle (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 151,
+      "sortOrder": 153,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2497,7 +2497,7 @@
       "name": "Horizont (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 152,
+      "sortOrder": 151,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2590,7 +2590,7 @@
       "name": "Friede (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 153,
+      "sortOrder": 152,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
