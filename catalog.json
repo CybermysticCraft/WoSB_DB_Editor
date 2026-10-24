@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1792713076550,
+  "exportedAt": 1792811948693,
   "source": "bot-db",
   "items": [
     {
@@ -1366,7 +1366,7 @@
       }
     },
     {
-      "name": "Flamouth (IV)",
+      "name": "Falmouth (IV)",
       "group": 3,
       "weight": 0,
       "sortOrder": 85,
@@ -2369,7 +2369,7 @@
       "name": "Le Cerf (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 98,
+      "sortOrder": 100,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2400,7 +2400,7 @@
       "name": "Pickle (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 104,
+      "sortOrder": 106,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2466,7 +2466,7 @@
       "name": "La Salamandre (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 103,
+      "sortOrder": 105,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2497,7 +2497,7 @@
       "name": "Horizont (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 105,
+      "sortOrder": 107,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2563,7 +2563,7 @@
       "name": "Mercury (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 99,
+      "sortOrder": 101,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2590,7 +2590,7 @@
       "name": "Friede (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 106,
+      "sortOrder": 108,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2769,7 +2769,7 @@
       "name": "Phoenix (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 100,
+      "sortOrder": 102,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2796,7 +2796,7 @@
       "name": "Le Requin (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 97,
+      "sortOrder": 99,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2823,7 +2823,7 @@
       "name": "Polacca (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 101,
+      "sortOrder": 103,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3107,7 +3107,7 @@
       "name": "Fair American (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 102,
+      "sortOrder": 104,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3126,6 +3126,76 @@
           {
             "name": "Балка",
             "quantity": 24.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Buen Viento (V)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 98,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 25.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 107.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 25.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 118.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rota (V)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 97,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 11.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 96.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 51.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 96.0
           }
         ]
       }
