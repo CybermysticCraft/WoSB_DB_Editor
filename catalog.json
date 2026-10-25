@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1792851202946,
+  "exportedAt": 1792941226892,
   "source": "bot-db",
   "items": [
     {
@@ -2204,7 +2204,7 @@
       "name": "La Creole (V)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 96,
+      "sortOrder": 106,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2369,7 +2369,7 @@
       "name": "Le Cerf (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 152,
+      "sortOrder": 155,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2400,7 +2400,7 @@
       "name": "Pickle (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 156,
+      "sortOrder": 159,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2431,7 +2431,7 @@
       "name": "Black Wind (V)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 97,
+      "sortOrder": 104,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2466,7 +2466,7 @@
       "name": "La Salamandre (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 154,
+      "sortOrder": 157,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2497,7 +2497,7 @@
       "name": "Horizont (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 155,
+      "sortOrder": 158,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2528,7 +2528,7 @@
       "name": "Russia (V)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 98,
+      "sortOrder": 102,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2563,7 +2563,7 @@
       "name": "Mercury (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 150,
+      "sortOrder": 153,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2590,7 +2590,7 @@
       "name": "Friede (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 153,
+      "sortOrder": 156,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2734,7 +2734,7 @@
       "name": "San Martin (V)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 99,
+      "sortOrder": 95,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2769,7 +2769,7 @@
       "name": "Phoenix (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 110,
+      "sortOrder": 152,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2796,7 +2796,7 @@
       "name": "Le Requin (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 108,
+      "sortOrder": 150,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2823,7 +2823,7 @@
       "name": "Polacca (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 109,
+      "sortOrder": 151,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2850,7 +2850,7 @@
       "name": "Diana (V)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 95,
+      "sortOrder": 105,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3072,7 +3072,7 @@
       "name": "Tie Long (V)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 100,
+      "sortOrder": 96,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3107,7 +3107,7 @@
       "name": "Fair American (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 151,
+      "sortOrder": 154,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3243,7 +3243,7 @@
       "name": "Balloon (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 107,
+      "sortOrder": 109,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3266,7 +3266,7 @@
       "name": "Black Prince (V)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 102,
+      "sortOrder": 100,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3401,7 +3401,7 @@
       "name": "Golden Apostle (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 106,
+      "sortOrder": 110,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3424,7 +3424,7 @@
       "name": "Shunsen (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 105,
+      "sortOrder": 108,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3447,7 +3447,7 @@
       "name": "Savannah (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 104,
+      "sortOrder": 107,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3462,6 +3462,87 @@
           {
             "name": "Боевая марка",
             "quantity": 750.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Kwee Song",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 99,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 3300.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Axel Thorsen (V)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 98,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 3000.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Southampton (V)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 97,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 25.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 90.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 29.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 129.0
           }
         ]
       }
