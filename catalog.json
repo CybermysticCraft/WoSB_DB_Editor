@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1792944290160,
+  "exportedAt": 1792945919421,
   "source": "bot-db",
   "items": [
     {
@@ -16,7 +16,7 @@
       "isCurrency": false,
       "isToolMaterial": true,
       "isShipMaterial": true,
-      "isAmmoMaterial": false,
+      "isAmmoMaterial": true,
       "manufactory": {
         "displayName": "Лесопилка",
         "canUsePrisoners": true,
@@ -144,7 +144,7 @@
       "isCurrency": false,
       "isToolMaterial": true,
       "isShipMaterial": false,
-      "isAmmoMaterial": false,
+      "isAmmoMaterial": true,
       "manufactory": {
         "displayName": "Производство смолы",
         "canUsePrisoners": true,
@@ -266,7 +266,7 @@
       "isCurrency": false,
       "isToolMaterial": true,
       "isShipMaterial": false,
-      "isAmmoMaterial": false,
+      "isAmmoMaterial": true,
       "recipe": {
         "outputQuantity": 5.0,
         "craftTime": 2.0,
@@ -560,7 +560,7 @@
       "isCurrency": false,
       "isToolMaterial": true,
       "isShipMaterial": false,
-      "isAmmoMaterial": false
+      "isAmmoMaterial": true
     },
     {
       "name": "Череп Вуду",
@@ -616,7 +616,7 @@
       "isCurrency": false,
       "isToolMaterial": true,
       "isShipMaterial": true,
-      "isAmmoMaterial": false,
+      "isAmmoMaterial": true,
       "recipe": {
         "outputQuantity": 10.0,
         "craftTime": 1.0,
@@ -2044,7 +2044,7 @@
     },
     {
       "name": "Чугунные",
-      "group": 2,
+      "group": 4,
       "weight": 0,
       "sortOrder": 73,
       "isSea": false,
@@ -2068,7 +2068,7 @@
     },
     {
       "name": "Малые поджигающие бочки",
-      "group": 2,
+      "group": 4,
       "weight": 0,
       "sortOrder": 75,
       "isSea": false,
@@ -2096,7 +2096,7 @@
     },
     {
       "name": "Бомбы осколочные",
-      "group": 2,
+      "group": 4,
       "weight": 0,
       "sortOrder": 76,
       "isSea": false,
@@ -2124,7 +2124,7 @@
     },
     {
       "name": "Брандскугели",
-      "group": 2,
+      "group": 4,
       "weight": 0,
       "sortOrder": 74,
       "isSea": false,
@@ -2152,7 +2152,7 @@
     },
     {
       "name": "Большие осколочные мины",
-      "group": 2,
+      "group": 4,
       "weight": 0,
       "sortOrder": 77,
       "isSea": false,
@@ -3723,16 +3723,16 @@
       "kind": "tools"
     },
     {
-      "id": 3,
-      "emoji": "⛵",
-      "title": "Корабли",
-      "kind": "ships"
-    },
-    {
       "id": 4,
       "emoji": "🧨",
       "title": "Боеприпасы",
       "kind": "ammunition"
+    },
+    {
+      "id": 3,
+      "emoji": "⛵",
+      "title": "Корабли",
+      "kind": "ships"
     }
   ]
 }
