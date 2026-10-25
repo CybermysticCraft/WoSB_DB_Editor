@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1792966462163,
+  "exportedAt": 1792967535268,
   "source": "bot-db",
   "items": [
     {
@@ -1298,7 +1298,7 @@
       "name": "La Couronne (I)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 11,
+      "sortOrder": 13,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1317,15 +1317,15 @@
           },
           {
             "name": "Балка",
-            "quantity": 1249.0
+            "quantity": 1440.0
           },
           {
             "name": "Переборка",
-            "quantity": 1620.0
+            "quantity": 1552.0
           },
           {
             "name": "Парусина",
-            "quantity": 1800.0
+            "quantity": 1474.0
           },
           {
             "name": "Пластина",
@@ -1338,7 +1338,7 @@
       "name": "La Sirene (II)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 40,
+      "sortOrder": 67,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1357,15 +1357,15 @@
           },
           {
             "name": "Балка",
-            "quantity": 591.0
+            "quantity": 686.0
           },
           {
             "name": "Переборка",
-            "quantity": 304.0
+            "quantity": 309.0
           },
           {
             "name": "Парусина",
-            "quantity": 546.0
+            "quantity": 489.0
           },
           {
             "name": "Пластина",
@@ -1865,23 +1865,7 @@
         "materials": [
           {
             "name": "Боевая марка",
-            "quantity": 540.0
-          },
-          {
-            "name": "Балка",
-            "quantity": 433.0
-          },
-          {
-            "name": "Переборка",
-            "quantity": 399.0
-          },
-          {
-            "name": "Парусина",
-            "quantity": 574.0
-          },
-          {
-            "name": "Пластина",
-            "quantity": 56.0
+            "quantity": 12000.0
           }
         ]
       }
@@ -1966,7 +1950,7 @@
       "name": "Sans Pareil (II)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 42,
+      "sortOrder": 68,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2006,7 +1990,7 @@
       "name": "Victory (I)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 10,
+      "sortOrder": 14,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2182,7 +2166,7 @@
       "name": "Ingermanland (II)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 41,
+      "sortOrder": 69,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2298,7 +2282,7 @@
       "name": "La Royale (I)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 13,
+      "sortOrder": 11,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2313,23 +2297,7 @@
         "materials": [
           {
             "name": "Боевая марка",
-            "quantity": 1090.0
-          },
-          {
-            "name": "Балка",
-            "quantity": 771.0
-          },
-          {
-            "name": "Переборка",
-            "quantity": 2002.0
-          },
-          {
-            "name": "Парусина",
-            "quantity": 1665.0
-          },
-          {
-            "name": "Пластина",
-            "quantity": 118.0
+            "quantity": 15000.0
           }
         ]
       }
@@ -2371,15 +2339,15 @@
           },
           {
             "name": "Балка",
-            "quantity": 1159.0
+            "quantity": 1007.0
           },
           {
             "name": "Переборка",
-            "quantity": 3038.0
+            "quantity": 3330.0
           },
           {
             "name": "Парусина",
-            "quantity": 832.0
+            "quantity": 1204.0
           },
           {
             "name": "Пластина",
@@ -2692,7 +2660,7 @@
       "name": "Redoutable (II)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 67,
+      "sortOrder": 50,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2707,23 +2675,7 @@
         "materials": [
           {
             "name": "Боевая марка",
-            "quantity": 775.0
-          },
-          {
-            "name": "Балка",
-            "quantity": 585.0
-          },
-          {
-            "name": "Переборка",
-            "quantity": 591.0
-          },
-          {
-            "name": "Парусина",
-            "quantity": 349.0
-          },
-          {
-            "name": "Пластина",
-            "quantity": 84.0
+            "quantity": 14400.0
           }
         ]
       }
@@ -3080,7 +3032,7 @@
       "name": "Montanes (II)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 50,
+      "sortOrder": 40,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3292,7 +3244,7 @@
       "name": "St. Pavel (II)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 69,
+      "sortOrder": 41,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3440,7 +3392,7 @@
       "name": "Octopus (II)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 68,
+      "sortOrder": 42,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3468,7 +3420,7 @@
       "name": "Huracan (I)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 14,
+      "sortOrder": 10,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3856,6 +3808,70 @@
           {
             "name": "Боевая марка",
             "quantity": 9600.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bonhomme Richard (II)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 39,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 160.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 596.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 349.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 562.0
+          },
+          {
+            "name": "Пластина",
+            "quantity": 68.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Sovereign (I)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 9,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 16500.0
           }
         ]
       }
