@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1792945919421,
+  "exportedAt": 1792951329902,
   "source": "bot-db",
   "items": [
     {
@@ -3718,13 +3718,13 @@
     },
     {
       "id": 2,
-      "emoji": "💣",
+      "emoji": "⚔️",
       "title": "Орудия",
       "kind": "tools"
     },
     {
       "id": 4,
-      "emoji": "🧨",
+      "emoji": "💣",
       "title": "Боеприпасы",
       "kind": "ammunition"
     },
