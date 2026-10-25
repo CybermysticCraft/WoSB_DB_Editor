@@ -1,7 +1,9 @@
 {
   "app": "wosb-texts",
   "formatVersion": 1,
-  "exportedAt": 1792919592475,
-  "source": "app-defaults",
-  "texts": {}
+  "exportedAt": 1792944491280,
+  "source": "",
+  "texts": {
+    "settings.section.update.hint": "Обновление базы данных не затрагивает ваши данные (цены, дефолты, мануфактуры, планы и заметки)"
+  }
 }
