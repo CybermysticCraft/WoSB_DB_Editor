@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1792941226892,
+  "exportedAt": 1792943745015,
   "source": "bot-db",
   "items": [
     {
@@ -1369,7 +1369,7 @@
       "name": "Falmouth (IV)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 88,
+      "sortOrder": 95,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1387,15 +1387,15 @@
           },
           {
             "name": "Балка",
-            "quantity": 186.0
+            "quantity": 191.0
           },
           {
             "name": "Переборка",
-            "quantity": 62.0
+            "quantity": 73.0
           },
           {
             "name": "Парусина",
-            "quantity": 231.0
+            "quantity": 248.0
           }
         ]
       }
@@ -1762,10 +1762,10 @@
       }
     },
     {
-      "name": "Kobukson (III)",
+      "name": "Kobukson (IV)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 80,
+      "sortOrder": 92,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1779,23 +1779,7 @@
         "materials": [
           {
             "name": "Боевая марка",
-            "quantity": 330.0
-          },
-          {
-            "name": "Балка",
-            "quantity": 208.0
-          },
-          {
-            "name": "Переборка",
-            "quantity": 208.0
-          },
-          {
-            "name": "Парусина",
-            "quantity": 276.0
-          },
-          {
-            "name": "Пластина",
-            "quantity": 34.0
+            "quantity": 4500.0
           }
         ]
       }
@@ -1843,7 +1827,7 @@
       "name": "Essex (IV)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 89,
+      "sortOrder": 96,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1878,7 +1862,7 @@
       "name": "Anson (III)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 84,
+      "sortOrder": 83,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2165,7 +2149,7 @@
       "name": "Poltava (III)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 81,
+      "sortOrder": 80,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2204,7 +2188,7 @@
       "name": "La Creole (V)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 106,
+      "sortOrder": 108,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2334,7 +2318,7 @@
       "name": "Unity (IV)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 90,
+      "sortOrder": 97,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2369,7 +2353,7 @@
       "name": "Le Cerf (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 155,
+      "sortOrder": 157,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2400,7 +2384,7 @@
       "name": "Pickle (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 159,
+      "sortOrder": 161,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2431,7 +2415,7 @@
       "name": "Black Wind (V)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 104,
+      "sortOrder": 106,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2466,7 +2450,7 @@
       "name": "La Salamandre (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 157,
+      "sortOrder": 159,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2497,7 +2481,7 @@
       "name": "Horizont (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 158,
+      "sortOrder": 160,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2528,7 +2512,7 @@
       "name": "Russia (V)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 102,
+      "sortOrder": 104,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2563,7 +2547,7 @@
       "name": "Mercury (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 153,
+      "sortOrder": 155,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2590,7 +2574,7 @@
       "name": "Friede (VII)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 156,
+      "sortOrder": 158,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2660,7 +2644,7 @@
       "name": "Bellona (III)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 85,
+      "sortOrder": 84,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2699,7 +2683,7 @@
       "name": "Constitution (IV)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 91,
+      "sortOrder": 93,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2721,20 +2705,20 @@
           },
           {
             "name": "Переборка",
-            "quantity": 124.0
+            "quantity": 129.0
           },
           {
             "name": "Парусина",
-            "quantity": 152.0
+            "quantity": 163.0
           }
         ]
       }
     },
     {
-      "name": "San Martin (V)",
+      "name": "San Martin (IV)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 95,
+      "sortOrder": 94,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2748,19 +2732,19 @@
         "materials": [
           {
             "name": "Боевая марка",
-            "quantity": 11.0
+            "quantity": 60.0
           },
           {
             "name": "Балка",
-            "quantity": 96.0
+            "quantity": 219.0
           },
           {
             "name": "Переборка",
-            "quantity": 51.0
+            "quantity": 62.0
           },
           {
             "name": "Парусина",
-            "quantity": 90.0
+            "quantity": 208.0
           }
         ]
       }
@@ -2769,7 +2753,7 @@
       "name": "Phoenix (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 152,
+      "sortOrder": 154,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2796,7 +2780,7 @@
       "name": "Le Requin (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 150,
+      "sortOrder": 152,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2823,7 +2807,7 @@
       "name": "Polacca (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 151,
+      "sortOrder": 153,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2850,7 +2834,7 @@
       "name": "Diana (V)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 105,
+      "sortOrder": 107,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2885,7 +2869,7 @@
       "name": "Friedrich Wilhelm (IV)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 92,
+      "sortOrder": 89,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2920,7 +2904,7 @@
       "name": "San Leandro (III)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 83,
+      "sortOrder": 81,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2959,7 +2943,7 @@
       "name": "Iberia (III)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 86,
+      "sortOrder": 85,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3037,7 +3021,7 @@
       "name": "Qing Long (IV)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 93,
+      "sortOrder": 87,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3072,7 +3056,7 @@
       "name": "Tie Long (V)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 96,
+      "sortOrder": 98,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3107,7 +3091,7 @@
       "name": "Fair American (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 154,
+      "sortOrder": 156,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3134,7 +3118,7 @@
       "name": "Buen Viento (V)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 103,
+      "sortOrder": 105,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3169,7 +3153,7 @@
       "name": "Rota (V)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 101,
+      "sortOrder": 103,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3243,7 +3227,7 @@
       "name": "Balloon (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 109,
+      "sortOrder": 150,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3266,7 +3250,7 @@
       "name": "Black Prince (V)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 100,
+      "sortOrder": 102,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3293,7 +3277,7 @@
       "name": "Devourer (IV)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 94,
+      "sortOrder": 91,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3320,7 +3304,7 @@
       "name": "Deadfish (III)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 87,
+      "sortOrder": 86,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3401,7 +3385,7 @@
       "name": "Golden Apostle (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 110,
+      "sortOrder": 151,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3424,7 +3408,7 @@
       "name": "Shunsen (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 108,
+      "sortOrder": 110,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3447,7 +3431,7 @@
       "name": "Savannah (VI)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 107,
+      "sortOrder": 109,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3467,10 +3451,10 @@
       }
     },
     {
-      "name": "Kwee Song",
+      "name": "Kwee Song (V)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 99,
+      "sortOrder": 100,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3493,7 +3477,7 @@
       "name": "Axel Thorsen (V)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 98,
+      "sortOrder": 101,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3516,7 +3500,7 @@
       "name": "Southampton (V)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 97,
+      "sortOrder": 99,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3543,6 +3527,64 @@
           {
             "name": "Парусина",
             "quantity": 129.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Flying Cloud (IV)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 90,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 3600.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Three Hierarchs (IV)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 88,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Боевая марка",
+            "quantity": 150.0
+          },
+          {
+            "name": "Балка",
+            "quantity": 174.0
+          },
+          {
+            "name": "Переборка",
+            "quantity": 152.0
+          },
+          {
+            "name": "Парусина",
+            "quantity": 191.0
           }
         ]
       }
