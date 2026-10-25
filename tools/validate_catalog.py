@@ -29,6 +29,13 @@ craftTimeHours → craftTime («крафт-время» измеряется в 
 приложения). Новые ключи опциональны: старые версии приложения
 их молча пропускают (ignoreUnknownKeys).
 
+С v0.5 (решение владельца, wosb-android-79): kind ammunition
+(«Боеприпасы», seed-группа 4) — тоже только крафт, без мануфактуры
+и чужих источников, но ВЕС и КРАФТ-ВРЕМЯ ЗАДАЮТСЯ (вес партии
+нужен смете калькулятора), выход задаёт админ (батчевый); материалы
+рецептов боеприпасов обязаны иметь флаг isAmmoMaterial
+(«Материал для боеприпасов») — фильтр выбора в редакторе.
+
 texts.json (wosb-android-75) — переопределения текстов интерфейса
 приложения (заголовки/подсказки экранов, тексты настроек). Реестр
 блоков (идентификаторы и дефолты) живёт в коде приложения
@@ -52,12 +59,23 @@ LEVEL_COUNT = 4             # уровней у мануфактуры: либо
 PRISONERS_ITEM = "Пленные"  # служебный предмет-ресурс пленных
 KNOWN_GROUPS = {1, 2, 3}    # 1 «📦 Ресурсы», 2 «💣 Орудия», 3 «⛵ Корабли»
 
-# Семантика групп (v0.4): kind в секции groups; отсутствие — resources.
-GROUP_KINDS = {"resources", "tools", "ships"}
+# Семантика групп (v0.4/v0.5): kind в секции groups; отсутствие — resources.
+GROUP_KINDS = {"resources", "tools", "ships", "ammunition"}
+# Только крафт (v0.4/v0.5): без мануфактуры и чужих источников.
+CRAFT_ONLY_KINDS = {"tools", "ships", "ammunition"}
+# Юнит-группы (v0.4): + без веса и крафт-времени.
 UNIT_KINDS = {"tools", "ships"}
-UNIT_TITLES = {"tools": "орудий", "ships": "кораблей"}
-MATERIAL_FLAG = {"tools": "isToolMaterial", "ships": "isShipMaterial"}
-FLAG_LABEL = {"tools": "«Материал для орудий»", "ships": "«Материал для кораблей»"}
+CRAFT_ONLY_TITLES = {"tools": "орудий", "ships": "кораблей", "ammunition": "боеприпасов"}
+MATERIAL_FLAG = {
+    "tools": "isToolMaterial",
+    "ships": "isShipMaterial",
+    "ammunition": "isAmmoMaterial",
+}
+FLAG_LABEL = {
+    "tools": "«Материал для орудий»",
+    "ships": "«Материал для кораблей»",
+    "ammunition": "«Материал для боеприпасов»",
+}
 
 # Файл текстов интерфейса (wosb-android-75) — зеркало TextsFile.kt приложения.
 TEXTS_APP_TAG = "wosb-texts"
@@ -123,7 +141,7 @@ def validate(data):
                 if kind not in GROUP_KINDS:
                     errors.append(
                         f"Группа {gid}: неизвестный kind {kind!r} "
-                        "(ожидаются resources/tools/ships)"
+                        "(ожидаются resources/tools/ships/ammunition)"
                     )
                     kind = "resources"
                 kinds_by_id[gid] = kind
@@ -170,17 +188,19 @@ def validate(data):
                 f"«{name}»: неизвестная группа {group!r} (приложение покажет как «Ресурсы»)"
             )
 
-        # Юнит-группы (v0.4): орудия/корабли — только крафт, без веса,
-        # без мануфактуры и чужих источников (крафт-время/выход — в
-        # проходе 2, вместе с рецептами).
+        # Только крафт (v0.4/v0.5): орудия/корабли/боеприпасы — без
+        # мануфактуры и чужих источников; у юнитов (орудия/корабли)
+        # ещё и без веса (крафт-время/выход — в проходе 2, вместе
+        # с рецептами). У боеприпасов вес и время ЗАДАЮТСЯ (вес партии
+        # нужен смете калькулятора).
         kind = kind_of(item)
-        if kind in UNIT_KINDS:
-            title_kind = UNIT_TITLES[kind]
+        if kind in CRAFT_ONLY_KINDS:
+            title_kind = CRAFT_ONLY_TITLES[kind]
             if not item.get("isCraft") or item.get("recipe") is None:
                 errors.append(f"«{name}»: предмет группы {title_kind} создаётся только крафтом")
             if item.get("isSea") or item.get("isManufactory") or item.get("isMarket") or item.get("isCurrency"):
                 errors.append(f"«{name}»: у {title_kind} источник только «Крафт»")
-            if weight != 0:
+            if kind in UNIT_KINDS and weight != 0:
                 errors.append(f"«{name}»: у {title_kind} нет веса")
             if item.get("manufactory") is not None:
                 errors.append(f"«{name}»: у {title_kind} нет мануфактуры")
@@ -224,17 +244,18 @@ def validate(data):
                             f"«{name}»: количество материала «{mname}» должно быть больше 0"
                         )
 
-            # Юнит-группы (v0.4): у орудий/кораблей нет крафт-времени,
-            # у кораблей выход всегда 1; материалы — только с флагом.
+            # Только крафт (v0.4/v0.5): у юнитов (орудия/корабли) нет
+            # крафт-времени, у кораблей выход всегда 1; материалы всех
+            # крафт-only групп — только с флагом материала.
             kind = kind_of(item)
-            if kind in UNIT_KINDS and recipe is not None:
-                title_kind = UNIT_TITLES[kind]
-                craft_time = recipe.get("craftTime")
-                if is_num(craft_time) and craft_time != 0:
-                    errors.append(f"«{name}»: у {title_kind} нет крафт-времени")
-                output = recipe.get("outputQuantity")
-                if kind == "ships" and is_num(output) and output != 1:
-                    errors.append(f"«{name}»: выход корабля всегда 1 шт.")
+            if kind in CRAFT_ONLY_KINDS and recipe is not None:
+                if kind in UNIT_KINDS:
+                    craft_time = recipe.get("craftTime")
+                    if is_num(craft_time) and craft_time != 0:
+                        errors.append(f"«{name}»: у {CRAFT_ONLY_TITLES[kind]} нет крафт-времени")
+                    output = recipe.get("outputQuantity")
+                    if kind == "ships" and is_num(output) and output != 1:
+                        errors.append(f"«{name}»: выход корабля всегда 1 шт.")
                 items_by_name = {
                     i.get("name"): i
                     for i in items
