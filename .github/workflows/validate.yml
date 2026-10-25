@@ -6,12 +6,14 @@ on:
     paths:
       - "catalog.json"
       - "renames.json"
+      - "texts.json"
       - "tools/**"
       - ".github/workflows/**"
   pull_request:
     paths:
       - "catalog.json"
       - "renames.json"
+      - "texts.json"
       - "tools/**"
   workflow_dispatch:
 
@@ -27,5 +29,5 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Validate catalog.json + renames.json
-        run: python tools/validate_catalog.py catalog.json renames.json
+      - name: Validate catalog.json + renames.json + texts.json
+        run: python tools/validate_catalog.py catalog.json renames.json texts.json

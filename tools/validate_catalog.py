@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""CI-валидатор каталога WoSB (catalog.json + renames.json).
+"""CI-валидатор каталога WoSB (catalog.json + renames.json + texts.json).
 
 Повторяет правила парсера приложения (CatalogParser, Kotlin,
 app/src/main/java/.../data/catalog/CatalogFile.kt) и добавляет проверки,
@@ -29,8 +29,16 @@ craftTimeHours → craftTime («крафт-время» измеряется в 
 приложения). Новые ключи опциональны: старые версии приложения
 их молча пропускают (ignoreUnknownKeys).
 
+texts.json (wosb-android-75) — переопределения текстов интерфейса
+приложения (заголовки/подсказки экранов, тексты настроек). Реестр
+блоков (идентификаторы и дефолты) живёт в коде приложения
+(AppTexts.kt); файл хранит ТОЛЬКО отличия, незнакомые идентификаторы
+легальны (файл мог написать редактор более новой версии) — валидируется
+только структура. Пустой файл переопределений — легальное начальное
+состояние.
+
 Выход: 0 — ошибок нет (предупреждения допустимы), 1 — есть ошибки.
-Использование: python3 tools/validate_catalog.py catalog.json [renames.json]
+Использование: python3 tools/validate_catalog.py catalog.json [renames.json] [texts.json]
 """
 
 import json
@@ -50,6 +58,10 @@ UNIT_KINDS = {"tools", "ships"}
 UNIT_TITLES = {"tools": "орудий", "ships": "кораблей"}
 MATERIAL_FLAG = {"tools": "isToolMaterial", "ships": "isShipMaterial"}
 FLAG_LABEL = {"tools": "«Материал для орудий»", "ships": "«Материал для кораблей»"}
+
+# Файл текстов интерфейса (wosb-android-75) — зеркало TextsFile.kt приложения.
+TEXTS_APP_TAG = "wosb-texts"
+TEXTS_FORMAT_VERSION = 1
 
 
 def is_num(value):
@@ -358,10 +370,53 @@ def validate_renames(path, catalog_names):
     return errors, warnings
 
 
+def validate_texts(path):
+    """Структурная проверка texts.json (зеркало TextsFile.validate).
+
+    Ошибки: чужая метка app, неверная версия формата, непустые ключи и
+    значения. Незнакомые идентификаторы НЕ проверяются — реестр блоков
+    живёт в приложении, файл хранит только отличия (прямая
+    совместимость версий).
+    """
+    errors, warnings = [], []
+    try:
+        with open(path, encoding="utf-8") as fh:
+            data = json.load(fh)
+    except (OSError, json.JSONDecodeError) as exc:
+        return [f"{path}: не удалось прочитать/разобрать JSON: {exc}"], warnings
+
+    if not isinstance(data, dict):
+        return [f"{path}: ожидается JSON-объект"], warnings
+
+    app = data.get("app")
+    if app != TEXTS_APP_TAG:
+        errors.append(f'{path}: метка app=" {app}" не "{TEXTS_APP_TAG}" — это не файл текстов WoSB')
+
+    version = data.get("formatVersion")
+    if version != TEXTS_FORMAT_VERSION:
+        errors.append(
+            f"{path}: formatVersion={version}, ожидается {TEXTS_FORMAT_VERSION} "
+            "(файл новой/устаревшей версии не примет текущее приложение)"
+        )
+
+    texts = data.get("texts")
+    if not isinstance(texts, dict):
+        errors.append(f"{path}: секция texts отсутствует или не объект")
+        return errors, warnings
+
+    for key, value in texts.items():
+        if not isinstance(key, str) or not key.strip():
+            errors.append(f"{path}: пустой или нестроковый идентификатор блока")
+            continue
+        if not isinstance(value, str) or not value.strip():
+            errors.append(f'{path}: блок «{key}» — пустой или нестроковый текст')
+    return errors, warnings
+
+
 def main():
-    if len(sys.argv) not in (2, 3):
+    if len(sys.argv) not in (2, 3, 4):
         print(
-            "Использование: validate_catalog.py <catalog.json> [renames.json]",
+            "Использование: validate_catalog.py <catalog.json> [renames.json] [texts.json]",
             file=sys.stderr,
         )
         return 2
@@ -384,12 +439,23 @@ def main():
         errors.extend(r_errors)
         warnings.extend(r_warnings)
 
+    if len(sys.argv) == 4:
+        t_errors, t_warnings = validate_texts(sys.argv[3])
+        errors.extend(t_errors)
+        warnings.extend(t_warnings)
+
     items = data.get("items") or []
     n_craft = sum(1 for i in items if isinstance(i, dict) and i.get("isCraft"))
     n_manuf = sum(1 for i in items if isinstance(i, dict) and i.get("manufactory") is not None)
     n_groups = len(data.get("groups") or [])
     groups_note = f", групп: {n_groups}" if n_groups else " (легаси без groups)"
-    print(f"Каталог: {len(items)} предметов, {n_craft} с крафтом, {n_manuf} мануфактур{groups_note}")
+    texts_note = ""
+    if len(sys.argv) == 4:
+        with open(sys.argv[3], encoding="utf-8") as fh:
+            t_data = json.load(fh)
+        n_texts = len(t_data.get("texts") or {})
+        texts_note = f"; тексты: {n_texts} переопределений"
+    print(f"Каталог: {len(items)} предметов, {n_craft} с крафтом, {n_manuf} мануфактур{groups_note}{texts_note}")
     for warning in warnings:
         print(f"ПРЕДУПРЕЖДЕНИЕ: {warning}")
     for error in errors:

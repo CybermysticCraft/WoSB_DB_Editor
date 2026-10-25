@@ -9,6 +9,7 @@
 |---|---|
 | `catalog.json` | **Сама БД** — формат v2 (ключ `craftTime` с v0.3; секция `groups` с v0.2; kind групп и флаги материалов с v0.4) |
 | `renames.json` | Append-only журнал переименований — устройство мигрирует пользовательские данные при «Обновить БД» |
+| `texts.json` | Переопределения текстов интерфейса приложения (wosb-android-75) — заголовки/подсказки экранов, тексты настроек; файл хранит ТОЛЬКО отличия от встроенных дефолтов |
 | `SCHEMA.md` | Описание формата, правил валидации и жизненного цикла правок (v0.4) |
 | `tools/validate_catalog.py` | Валидатор: правила `CatalogParser` приложения + поиск циклов в рецептах + groups/renames + флаг опасных вод + правила крафт-юнитов (v0.4) |
 | `.github/workflows/validate.yml` | CI: валидация при каждом push/PR |
@@ -30,7 +31,7 @@ Git-история репозитория = полный журнал измен
 Локальная проверка:
 
 ```bash
-python3 tools/validate_catalog.py catalog.json renames.json
+python3 tools/validate_catalog.py catalog.json renames.json texts.json
 ```
 
 ## Статус
