@@ -31,6 +31,26 @@
       "from": "Flamouth (IV)",
       "to": "Falmouth (IV)",
       "at": 1792811755909
+    },
+    {
+      "from": "San Martin (V)",
+      "to": "San Martin (IV)",
+      "at": 1792942723350
+    },
+    {
+      "from": "Kobukson (III)",
+      "to": "Kobukson (IV)",
+      "at": 1792943024379
+    },
+    {
+      "from": "Kwee Song",
+      "to": "Kwee Song (IV)",
+      "at": 1792943243745
+    },
+    {
+      "from": "Kwee Song (IV)",
+      "to": "Kwee Song (V)",
+      "at": 1792943376228
     }
   ]
 }
