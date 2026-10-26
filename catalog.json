@@ -1467,6 +1467,7 @@
       "isToolMaterial": false,
       "isShipMaterial": false,
       "isAmmoMaterial": false,
+      "category": "Мортиры",
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1495,6 +1496,7 @@
       "isToolMaterial": false,
       "isShipMaterial": false,
       "isAmmoMaterial": false,
+      "category": "Мортиры",
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1523,6 +1525,7 @@
       "isToolMaterial": false,
       "isShipMaterial": false,
       "isAmmoMaterial": false,
+      "category": "Мортиры",
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1555,6 +1558,7 @@
       "isToolMaterial": false,
       "isShipMaterial": false,
       "isAmmoMaterial": false,
+      "category": "Мортиры",
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1587,6 +1591,7 @@
       "isToolMaterial": false,
       "isShipMaterial": false,
       "isAmmoMaterial": false,
+      "category": "Мортиры",
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1623,6 +1628,7 @@
       "isToolMaterial": false,
       "isShipMaterial": false,
       "isAmmoMaterial": false,
+      "category": "Мортиры",
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
