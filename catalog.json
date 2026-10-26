@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1792967535268,
+  "exportedAt": 1792976944229,
   "source": "bot-db",
   "items": [
     {
@@ -971,6 +971,7 @@
       "isToolMaterial": false,
       "isShipMaterial": false,
       "isAmmoMaterial": false,
+      "category": "Легкие",
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -999,6 +1000,7 @@
       "isToolMaterial": false,
       "isShipMaterial": false,
       "isAmmoMaterial": false,
+      "category": "Легкие",
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
