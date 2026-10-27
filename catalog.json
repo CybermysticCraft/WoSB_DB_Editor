@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1792977560537,
+  "exportedAt": 1793106308524,
   "source": "bot-db",
   "items": [
     {
@@ -2061,7 +2061,7 @@
     {
       "name": "Чугунные",
       "group": 4,
-      "weight": 0,
+      "weight": 1,
       "sortOrder": 73,
       "isSea": false,
       "isManufactory": false,
