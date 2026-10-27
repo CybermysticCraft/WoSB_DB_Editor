@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1793106308524,
+  "exportedAt": 1793131274420,
   "source": "bot-db",
   "items": [
     {
@@ -2073,7 +2073,7 @@
       "isAmmoMaterial": false,
       "recipe": {
         "outputQuantity": 100.0,
-        "craftTime": 0.0,
+        "craftTime": 1.0,
         "materials": [
           {
             "name": "Железо",
@@ -2085,7 +2085,7 @@
     {
       "name": "Малые поджигающие бочки",
       "group": 4,
-      "weight": 0,
+      "weight": 200,
       "sortOrder": 75,
       "isSea": false,
       "isManufactory": false,
@@ -2097,7 +2097,7 @@
       "isAmmoMaterial": false,
       "recipe": {
         "outputQuantity": 10.0,
-        "craftTime": 0.0,
+        "craftTime": 1.0,
         "materials": [
           {
             "name": "Древесина",
@@ -2113,7 +2113,7 @@
     {
       "name": "Бомбы осколочные",
       "group": 4,
-      "weight": 0,
+      "weight": 75,
       "sortOrder": 76,
       "isSea": false,
       "isManufactory": false,
@@ -2125,7 +2125,7 @@
       "isAmmoMaterial": false,
       "recipe": {
         "outputQuantity": 3.0,
-        "craftTime": 0.0,
+        "craftTime": 1.0,
         "materials": [
           {
             "name": "Медь",
@@ -2141,7 +2141,7 @@
     {
       "name": "Брандскугели",
       "group": 4,
-      "weight": 0,
+      "weight": 3,
       "sortOrder": 74,
       "isSea": false,
       "isManufactory": false,
@@ -2153,7 +2153,7 @@
       "isAmmoMaterial": false,
       "recipe": {
         "outputQuantity": 100.0,
-        "craftTime": 0.0,
+        "craftTime": 1.0,
         "materials": [
           {
             "name": "Железо",
@@ -2169,7 +2169,7 @@
     {
       "name": "Большие осколочные мины",
       "group": 4,
-      "weight": 0,
+      "weight": 400,
       "sortOrder": 77,
       "isSea": false,
       "isManufactory": false,
@@ -2181,7 +2181,7 @@
       "isAmmoMaterial": false,
       "recipe": {
         "outputQuantity": 10.0,
-        "craftTime": 0.0,
+        "craftTime": 1.0,
         "materials": [
           {
             "name": "Смола",
