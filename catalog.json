@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1793131274420,
+  "exportedAt": 1793167265861,
   "source": "bot-db",
   "items": [
     {
@@ -3960,6 +3960,34 @@
           }
         ]
       }
+    },
+    {
+      "name": "Пиратский жетон",
+      "group": 1,
+      "weight": 0,
+      "sortOrder": 83,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": false,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": true,
+      "isAmmoMaterial": false
+    },
+    {
+      "name": "Монеты",
+      "group": 1,
+      "weight": 0,
+      "sortOrder": 84,
+      "isSea": true,
+      "isManufactory": false,
+      "isCraft": false,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": true,
+      "isAmmoMaterial": false
     }
   ],
   "groups": [
