@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1793183613285,
+  "exportedAt": 1793183752009,
   "source": "bot-db",
   "items": [
     {
@@ -4010,6 +4010,31 @@
           {
             "name": "Пиратский жетон",
             "quantity": 60000.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Firestorm (I)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 3,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "rank": "I",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Монеты",
+            "quantity": 2570.0
           }
         ]
       }
