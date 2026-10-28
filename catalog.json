@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1793167265861,
+  "exportedAt": 1793183613285,
   "source": "bot-db",
   "items": [
     {
@@ -1309,7 +1309,7 @@
       "name": "La Couronne (I)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 13,
+      "sortOrder": 12,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2021,7 +2021,7 @@
       "name": "Victory (I)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 14,
+      "sortOrder": 13,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2317,7 +2317,7 @@
       "name": "La Royale (I)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 11,
+      "sortOrder": 10,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2356,7 +2356,7 @@
       "name": "12 Apostolov (I)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 12,
+      "sortOrder": 11,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3089,7 +3089,7 @@
       "name": "Montanes (II)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 40,
+      "sortOrder": 39,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3307,7 +3307,7 @@
       "name": "St. Pavel (II)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 41,
+      "sortOrder": 40,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3489,7 +3489,7 @@
       "name": "Huracan (I)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 10,
+      "sortOrder": 9,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3899,7 +3899,7 @@
       "name": "Bonhomme Richard (II)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 39,
+      "sortOrder": 14,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3940,7 +3940,7 @@
       "name": "Sovereign (I)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 9,
+      "sortOrder": 2,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3988,6 +3988,31 @@
       "isToolMaterial": false,
       "isShipMaterial": true,
       "isAmmoMaterial": false
+    },
+    {
+      "name": "Vasa (II)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 41,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "rank": "II",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Пиратский жетон",
+            "quantity": 60000.0
+          }
+        ]
+      }
     }
   ],
   "groups": [
