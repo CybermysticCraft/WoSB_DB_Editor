@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1793289957132,
+  "exportedAt": 1793298795317,
   "source": "bot-db",
   "items": [
     {
@@ -1344,6 +1344,26 @@
             "quantity": 112.0
           }
         ]
+      },
+      "ship": {
+        "class": "Транспортный",
+        "faction": "Эспаньол",
+        "durability": 4040,
+        "speedKnots": 7.2,
+        "maneuverability": 68,
+        "armor": 5.5,
+        "cargo": 56000,
+        "crew": 210,
+        "hullLength": 54,
+        "hullWidth": 10,
+        "displacementTons": 4500,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 8,
+        "gunsBroadside": 28,
+        "gunsBow": 0,
+        "falconets": 14,
+        "integrity": 6,
+        "specials": "Слоты улучшений: +1"
       }
     },
     {
@@ -1385,6 +1405,25 @@
             "quantity": 68.0
           }
         ]
+      },
+      "ship": {
+        "class": "Транспортный",
+        "faction": "Эспаньол",
+        "durability": 3260,
+        "speedKnots": 7.7,
+        "maneuverability": 75,
+        "armor": 4.4,
+        "cargo": 46500,
+        "crew": 190,
+        "hullLength": 50,
+        "hullWidth": 7,
+        "displacementTons": 3600,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 4,
+        "gunsBroadside": 32,
+        "gunsBow": 0,
+        "falconets": 8,
+        "integrity": 6
       }
     },
     {
@@ -1426,6 +1465,25 @@
             "quantity": 33.0
           }
         ]
+      },
+      "ship": {
+        "class": "Транспортный",
+        "faction": "Антилия",
+        "durability": 2540,
+        "speedKnots": 8.7,
+        "maneuverability": 87,
+        "armor": 4.2,
+        "cargo": 34000,
+        "crew": 148,
+        "hullLength": 41,
+        "hullWidth": 7,
+        "displacementTons": 2475,
+        "gunCaliber": "Средние",
+        "gunsStern": 4,
+        "gunsBroadside": 26,
+        "gunsBow": 0,
+        "falconets": 8,
+        "integrity": 6
       }
     },
     {
@@ -1463,6 +1521,26 @@
             "quantity": 248.0
           }
         ]
+      },
+      "ship": {
+        "class": "Транспортный",
+        "faction": "Антилия",
+        "durability": 2040,
+        "speedKnots": 9.4,
+        "maneuverability": 96,
+        "armor": 3.6,
+        "cargo": 27500,
+        "crew": 126,
+        "hullLength": 43,
+        "hullWidth": 6,
+        "displacementTons": 3060,
+        "gunCaliber": "Средние",
+        "gunsStern": 4,
+        "gunsBroadside": 18,
+        "gunsBow": 0,
+        "falconets": 8,
+        "integrity": 6,
+        "specials": "Доступен модуль мортиры"
       }
     },
     {
@@ -1871,6 +1949,26 @@
             "quantity": 4500.0
           }
         ]
+      },
+      "ship": {
+        "class": "Осадный",
+        "faction": "Кай и Северия",
+        "durability": 2000,
+        "speedKnots": 8.0,
+        "maneuverability": 85,
+        "armor": 4.6,
+        "cargo": 17000,
+        "crew": 148,
+        "hullLength": 36,
+        "hullWidth": 6,
+        "displacementTons": 2250,
+        "gunCaliber": "Средние",
+        "gunsStern": 0,
+        "gunsBroadside": 15,
+        "gunsBow": 0,
+        "falconets": 8,
+        "integrity": 6,
+        "specials": "Мортиры калибра до 8 дюймов: 4"
       }
     },
     {
@@ -1896,6 +1994,26 @@
             "quantity": 12000.0
           }
         ]
+      },
+      "ship": {
+        "class": "Осадный",
+        "faction": "Антилия",
+        "durability": 2800,
+        "speedKnots": 8.0,
+        "maneuverability": 95,
+        "armor": 5.6,
+        "cargo": 21000,
+        "crew": 162,
+        "hullLength": 47,
+        "hullWidth": 6,
+        "displacementTons": 2700,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 4,
+        "gunsBroadside": 19,
+        "gunsBow": 0,
+        "falconets": 8,
+        "integrity": 6,
+        "specials": "Мортиры калибра до 10 дюймов: 2; Оснащён вёслами"
       }
     },
     {
@@ -1933,6 +2051,25 @@
             "quantity": 208.0
           }
         ]
+      },
+      "ship": {
+        "class": "Боевой",
+        "faction": "Антилия",
+        "durability": 2160,
+        "speedKnots": 8.9,
+        "maneuverability": 88,
+        "armor": 4.8,
+        "cargo": 15500,
+        "crew": 136,
+        "hullLength": 38,
+        "hullWidth": 6,
+        "displacementTons": 2115,
+        "gunCaliber": "Средние",
+        "gunsStern": 2,
+        "gunsBroadside": 21,
+        "gunsBow": 2,
+        "falconets": 8,
+        "integrity": 6
       }
     },
     {
@@ -1955,25 +2092,44 @@
         "materials": [
           {
             "name": "Боевая марка",
-            "quantity": 375.0
+            "quantity": 365.0
           },
           {
             "name": "Балка",
-            "quantity": 292.0
+            "quantity": 253.0
           },
           {
             "name": "Переборка",
-            "quantity": 202.0
+            "quantity": 225.0
           },
           {
             "name": "Парусина",
-            "quantity": 259.0
+            "quantity": 309.0
           },
           {
             "name": "Пластина",
-            "quantity": 39.0
+            "quantity": 38.0
           }
         ]
+      },
+      "ship": {
+        "class": "Боевой",
+        "faction": "Антилия",
+        "durability": 2700,
+        "speedKnots": 8.2,
+        "maneuverability": 80,
+        "armor": 5.6,
+        "cargo": 18500,
+        "crew": 160,
+        "hullLength": 52,
+        "hullWidth": 8,
+        "displacementTons": 3150,
+        "gunCaliber": "Средние",
+        "gunsStern": 4,
+        "gunsBroadside": 30,
+        "gunsBow": 2,
+        "falconets": 8,
+        "integrity": 6
       }
     },
     {
@@ -2015,6 +2171,25 @@
             "quantity": 79.0
           }
         ]
+      },
+      "ship": {
+        "class": "Боевой",
+        "faction": "Антилия",
+        "durability": 3000,
+        "speedKnots": 7.7,
+        "maneuverability": 74,
+        "armor": 6.4,
+        "cargo": 21500,
+        "crew": 184,
+        "hullLength": 55,
+        "hullWidth": 6,
+        "displacementTons": 3330,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 4,
+        "gunsBroadside": 38,
+        "gunsBow": 2,
+        "falconets": 10,
+        "integrity": 6
       }
     },
     {
@@ -2056,6 +2231,25 @@
             "quantity": 186.0
           }
         ]
+      },
+      "ship": {
+        "class": "Боевой",
+        "faction": "Антилия",
+        "durability": 3740,
+        "speedKnots": 7.1,
+        "maneuverability": 66,
+        "armor": 8.0,
+        "cargo": 25000,
+        "crew": 204,
+        "hullLength": 61,
+        "hullWidth": 10,
+        "displacementTons": 4050,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 4,
+        "gunsBroadside": 49,
+        "gunsBow": 4,
+        "falconets": 10,
+        "integrity": 6
       }
     },
     {
@@ -2233,6 +2427,25 @@
             "quantity": 79.0
           }
         ]
+      },
+      "ship": {
+        "class": "Быстроходный",
+        "faction": "Кай и Северия",
+        "durability": 2020,
+        "speedKnots": 9.2,
+        "maneuverability": 97,
+        "armor": 4.5,
+        "cargo": 16500,
+        "crew": 128,
+        "hullLength": 47,
+        "hullWidth": 7,
+        "displacementTons": 3060,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 0,
+        "gunsBroadside": 32,
+        "gunsBow": 4,
+        "falconets": 12,
+        "integrity": 6
       }
     },
     {
@@ -2274,6 +2487,25 @@
             "quantity": 35.0
           }
         ]
+      },
+      "ship": {
+        "class": "Быстроходный",
+        "faction": "Кай и Северия",
+        "durability": 1820,
+        "speedKnots": 9.8,
+        "maneuverability": 105,
+        "armor": 4.0,
+        "cargo": 14500,
+        "crew": 112,
+        "hullLength": 41,
+        "hullWidth": 6,
+        "displacementTons": 2475,
+        "gunCaliber": "Средние",
+        "gunsStern": 0,
+        "gunsBroadside": 23,
+        "gunsBow": 4,
+        "falconets": 10,
+        "integrity": 6
       }
     },
     {
@@ -2311,6 +2543,25 @@
             "quantity": 191.0
           }
         ]
+      },
+      "ship": {
+        "class": "Быстроходный",
+        "faction": "Эспаньол",
+        "durability": 1580,
+        "speedKnots": 10.8,
+        "maneuverability": 100,
+        "armor": 2.0,
+        "cargo": 13000,
+        "crew": 106,
+        "hullLength": 39,
+        "hullWidth": 4,
+        "displacementTons": 1620,
+        "gunCaliber": "Легкие",
+        "gunsStern": 4,
+        "gunsBroadside": 12,
+        "gunsBow": 0,
+        "falconets": 8,
+        "integrity": 6
       }
     },
     {
@@ -2336,6 +2587,26 @@
             "quantity": 15000.0
           }
         ]
+      },
+      "ship": {
+        "class": "Осадный",
+        "faction": "Эспаньол",
+        "durability": 3000,
+        "speedKnots": 7.4,
+        "maneuverability": 85,
+        "armor": 6.5,
+        "cargo": 28000,
+        "crew": 188,
+        "hullLength": 60,
+        "hullWidth": 9,
+        "displacementTons": 3870,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 0,
+        "gunsBroadside": 18,
+        "gunsBow": 6,
+        "falconets": 12,
+        "integrity": 6,
+        "specials": "Мортиры калибра до 11 дюймов: 3; Уникальная роза ветров; Оснащён вёслами"
       }
     },
     {
@@ -2395,6 +2666,25 @@
             "quantity": 1.0
           }
         ]
+      },
+      "ship": {
+        "class": "Тяжёлый",
+        "faction": "Кай и Северия",
+        "durability": 3960,
+        "speedKnots": 6.8,
+        "maneuverability": 55,
+        "armor": 11.3,
+        "cargo": 33000,
+        "crew": 206,
+        "hullLength": 66,
+        "hullWidth": 11,
+        "displacementTons": 4500,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 0,
+        "gunsBroadside": 59,
+        "gunsBow": 0,
+        "falconets": 10,
+        "integrity": 6
       }
     },
     {
@@ -2432,6 +2722,25 @@
             "quantity": 360.0
           }
         ]
+      },
+      "ship": {
+        "class": "Быстроходный",
+        "faction": "Эспаньол",
+        "durability": 1900,
+        "speedKnots": 10.2,
+        "maneuverability": 105,
+        "armor": 2.4,
+        "cargo": 15500,
+        "crew": 124,
+        "hullLength": 42,
+        "hullWidth": 5,
+        "displacementTons": 2025,
+        "gunCaliber": "Средние",
+        "gunsStern": 0,
+        "gunsBroadside": 18,
+        "gunsBow": 2,
+        "falconets": 8,
+        "integrity": 6
       }
     },
     {
@@ -2461,10 +2770,29 @@
             "quantity": 26.0
           },
           {
-            "name": "Ткань",
+            "name": "Парусина",
             "quantity": 14.0
           }
         ]
+      },
+      "ship": {
+        "class": "Быстроходный",
+        "faction": "Эспаньол",
+        "durability": 1020,
+        "speedKnots": 9.8,
+        "maneuverability": 97,
+        "armor": 1.8,
+        "cargo": 9500,
+        "crew": 86,
+        "hullLength": 23,
+        "hullWidth": 3,
+        "displacementTons": 990,
+        "gunCaliber": "Легкие",
+        "gunsStern": 0,
+        "gunsBroadside": 8,
+        "gunsBow": 0,
+        "falconets": 8,
+        "integrity": 6
       }
     },
     {
@@ -2498,6 +2826,24 @@
             "quantity": 30.0
           }
         ]
+      },
+      "ship": {
+        "class": "Боевой",
+        "faction": "Антилия",
+        "durability": 850,
+        "speedKnots": 8.4,
+        "maneuverability": 80,
+        "armor": 3.2,
+        "cargo": 7000,
+        "crew": 78,
+        "hullLength": 24,
+        "hullWidth": 4,
+        "displacementTons": 1035,
+        "gunCaliber": "Легкие",
+        "gunsStern": 0,
+        "gunsBroadside": 8,
+        "gunsBow": 0,
+        "falconets": 4
       }
     },
     {
@@ -2535,6 +2881,26 @@
             "quantity": 118.0
           }
         ]
+      },
+      "ship": {
+        "class": "Боевой",
+        "faction": "Антилия",
+        "durability": 1820,
+        "speedKnots": 9.4,
+        "maneuverability": 84,
+        "armor": 4.0,
+        "cargo": 13000,
+        "crew": 116,
+        "hullLength": 44,
+        "hullWidth": 6,
+        "displacementTons": 2250,
+        "gunCaliber": "Легкие",
+        "gunsStern": 2,
+        "gunsBroadside": 16,
+        "gunsBow": 2,
+        "falconets": 6,
+        "integrity": 6,
+        "specials": "Доступен модуль мортиры"
       }
     },
     {
@@ -2568,6 +2934,24 @@
             "quantity": 30.0
           }
         ]
+      },
+      "ship": {
+        "class": "Боевой",
+        "faction": "Эспаньол",
+        "durability": 960,
+        "speedKnots": 7.9,
+        "maneuverability": 75,
+        "armor": 2.9,
+        "cargo": 8000,
+        "crew": 86,
+        "hullLength": 25,
+        "hullWidth": 4,
+        "displacementTons": 1215,
+        "gunCaliber": "Легкие",
+        "gunsStern": 2,
+        "gunsBroadside": 8,
+        "gunsBow": 0,
+        "falconets": 6
       }
     },
     {
@@ -2601,6 +2985,24 @@
             "quantity": 30.0
           }
         ]
+      },
+      "ship": {
+        "class": "Быстроходный",
+        "faction": "Кай и Северия",
+        "durability": 600,
+        "speedKnots": 9.4,
+        "maneuverability": 104,
+        "armor": 2.3,
+        "cargo": 5500,
+        "crew": 56,
+        "hullLength": 26,
+        "hullWidth": 3,
+        "displacementTons": 1125,
+        "gunCaliber": "Легкие",
+        "gunsStern": 2,
+        "gunsBroadside": 8,
+        "gunsBow": 0,
+        "falconets": 6
       }
     },
     {
@@ -2638,6 +3040,25 @@
             "quantity": 214.0
           }
         ]
+      },
+      "ship": {
+        "class": "Быстроходный",
+        "faction": "Кай и Северия",
+        "durability": 1220,
+        "speedKnots": 11.2,
+        "maneuverability": 110,
+        "armor": 2.7,
+        "cargo": 10500,
+        "crew": 82,
+        "hullLength": 39,
+        "hullWidth": 6,
+        "displacementTons": 2070,
+        "gunCaliber": "Легкие",
+        "gunsStern": 2,
+        "gunsBroadside": 14,
+        "gunsBow": 0,
+        "falconets": 6,
+        "integrity": 6
       }
     },
     {
@@ -2667,6 +3088,24 @@
             "quantity": 31.0
           }
         ]
+      },
+      "ship": {
+        "class": "Транспортный",
+        "faction": "Эспаньол",
+        "durability": 1260,
+        "speedKnots": 8.7,
+        "maneuverability": 83,
+        "armor": 2.5,
+        "cargo": 17000,
+        "crew": 98,
+        "hullLength": 32,
+        "hullWidth": 6,
+        "displacementTons": 2025,
+        "gunCaliber": "Легкие",
+        "gunsStern": 2,
+        "gunsBroadside": 10,
+        "gunsBow": 0,
+        "falconets": 6
       }
     },
     {
@@ -2700,6 +3139,25 @@
             "quantity": 30.0
           }
         ]
+      },
+      "ship": {
+        "class": "Транспортный",
+        "faction": "Эспаньол",
+        "durability": 920,
+        "speedKnots": 8.4,
+        "maneuverability": 81,
+        "armor": 2.2,
+        "cargo": 12000,
+        "crew": 82,
+        "hullLength": 33,
+        "hullWidth": 6,
+        "displacementTons": 1350,
+        "gunCaliber": "Легкие",
+        "gunsStern": 2,
+        "gunsBroadside": 7,
+        "gunsBow": 0,
+        "falconets": 6,
+        "specials": "Доступен модуль мортиры"
       }
     },
     {
@@ -2725,6 +3183,25 @@
             "quantity": 14400.0
           }
         ]
+      },
+      "ship": {
+        "class": "Тяжёлый",
+        "faction": "Эспаньол",
+        "durability": 4240,
+        "speedKnots": 6.3,
+        "maneuverability": 54,
+        "armor": 7.5,
+        "cargo": 37000,
+        "crew": 218,
+        "hullLength": 56,
+        "hullWidth": 8,
+        "displacementTons": 3600,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 0,
+        "gunsBroadside": 43,
+        "gunsBow": 0,
+        "falconets": 10,
+        "integrity": 6
       }
     },
     {
@@ -2766,6 +3243,25 @@
             "quantity": 40.0
           }
         ]
+      },
+      "ship": {
+        "class": "Тяжёлый",
+        "faction": "Антилия",
+        "durability": 3180,
+        "speedKnots": 7.5,
+        "maneuverability": 62,
+        "armor": 7.0,
+        "cargo": 26000,
+        "crew": 174,
+        "hullLength": 49,
+        "hullWidth": 8,
+        "displacementTons": 3915,
+        "gunCaliber": "Средние",
+        "gunsStern": 0,
+        "gunsBroadside": 35,
+        "gunsBow": 0,
+        "falconets": 10,
+        "integrity": 6
       }
     },
     {
@@ -2803,6 +3299,25 @@
             "quantity": 163.0
           }
         ]
+      },
+      "ship": {
+        "class": "Тяжёлый",
+        "faction": "Антилия",
+        "durability": 2560,
+        "speedKnots": 8.0,
+        "maneuverability": 68,
+        "armor": 6.0,
+        "cargo": 21500,
+        "crew": 148,
+        "hullLength": 52,
+        "hullWidth": 6,
+        "displacementTons": 3060,
+        "gunCaliber": "Средние",
+        "gunsStern": 0,
+        "gunsBroadside": 26,
+        "gunsBow": 0,
+        "falconets": 8,
+        "integrity": 6
       }
     },
     {
@@ -2840,6 +3355,25 @@
             "quantity": 208.0
           }
         ]
+      },
+      "ship": {
+        "class": "Транспортный",
+        "faction": "Эспаньол",
+        "durability": 2340,
+        "speedKnots": 8.9,
+        "maneuverability": 90,
+        "armor": 3.2,
+        "cargo": 30500,
+        "crew": 142,
+        "hullLength": 40,
+        "hullWidth": 9,
+        "displacementTons": 2475,
+        "gunCaliber": "Средние",
+        "gunsStern": 0,
+        "gunsBroadside": 20,
+        "gunsBow": 0,
+        "falconets": 8,
+        "integrity": 6
       }
     },
     {
@@ -2869,6 +3403,24 @@
             "quantity": 26.0
           }
         ]
+      },
+      "ship": {
+        "class": "Тяжёлый",
+        "faction": "Кай и Северия",
+        "durability": 1240,
+        "speedKnots": 8.6,
+        "maneuverability": 80,
+        "armor": 5.1,
+        "cargo": 12000,
+        "crew": 98,
+        "hullLength": 27,
+        "hullWidth": 6,
+        "displacementTons": 1440,
+        "gunCaliber": "Легкие",
+        "gunsStern": 0,
+        "gunsBroadside": 12,
+        "gunsBow": 0,
+        "falconets": 6
       }
     },
     {
@@ -2898,6 +3450,25 @@
             "quantity": 27.0
           }
         ]
+      },
+      "ship": {
+        "class": "Боевой",
+        "faction": "Эспаньол",
+        "durability": 1320,
+        "speedKnots": 8.3,
+        "maneuverability": 77,
+        "armor": 3.2,
+        "cargo": 11000,
+        "crew": 106,
+        "hullLength": 37,
+        "hullWidth": 4,
+        "displacementTons": 1305,
+        "gunCaliber": "Легкие",
+        "gunsStern": 2,
+        "gunsBroadside": 10,
+        "gunsBow": 0,
+        "falconets": 6,
+        "specials": "Уникальная роза ветров"
       }
     },
     {
@@ -2927,6 +3498,26 @@
             "quantity": 20.0
           }
         ]
+      },
+      "ship": {
+        "class": "Быстроходный",
+        "faction": "Кай и Северия",
+        "durability": 780,
+        "speedKnots": 10.2,
+        "maneuverability": 107,
+        "armor": 2.5,
+        "cargo": 7500,
+        "crew": 68,
+        "hullLength": 27,
+        "hullWidth": 5,
+        "displacementTons": 1350,
+        "gunCaliber": "Легкие",
+        "gunsStern": 0,
+        "gunsBroadside": 8,
+        "gunsBow": 0,
+        "falconets": 6,
+        "integrity": 6,
+        "specials": "Уникальная роза ветров"
       }
     },
     {
@@ -2964,6 +3555,25 @@
             "quantity": 101.0
           }
         ]
+      },
+      "ship": {
+        "class": "Боевой",
+        "faction": "Эспаньол",
+        "durability": 2040,
+        "speedKnots": 8.8,
+        "maneuverability": 79,
+        "armor": 3.6,
+        "cargo": 15000,
+        "crew": 128,
+        "hullLength": 45,
+        "hullWidth": 5,
+        "displacementTons": 2340,
+        "gunCaliber": "Легкие",
+        "gunsStern": 2,
+        "gunsBroadside": 16,
+        "gunsBow": 2,
+        "falconets": 6,
+        "integrity": 6
       }
     },
     {
@@ -3001,6 +3611,25 @@
             "quantity": 180.0
           }
         ]
+      },
+      "ship": {
+        "class": "Боевой",
+        "faction": "Эспаньол",
+        "durability": 2460,
+        "speedKnots": 8.3,
+        "maneuverability": 83,
+        "armor": 4.3,
+        "cargo": 18000,
+        "crew": 150,
+        "hullLength": 41,
+        "hullWidth": 6,
+        "displacementTons": 2340,
+        "gunCaliber": "Средние",
+        "gunsStern": 4,
+        "gunsBroadside": 21,
+        "gunsBow": 4,
+        "falconets": 8,
+        "integrity": 6
       }
     },
     {
@@ -3042,6 +3671,25 @@
             "quantity": 39.0
           }
         ]
+      },
+      "ship": {
+        "class": "Боевой",
+        "faction": "Эспаньол",
+        "durability": 3040,
+        "speedKnots": 7.7,
+        "maneuverability": 75,
+        "armor": 5.1,
+        "cargo": 21500,
+        "crew": 176,
+        "hullLength": 50,
+        "hullWidth": 8,
+        "displacementTons": 2790,
+        "gunCaliber": "Средние",
+        "gunsStern": 6,
+        "gunsBroadside": 29,
+        "gunsBow": 4,
+        "falconets": 8,
+        "integrity": 6
       }
     },
     {
@@ -3083,6 +3731,25 @@
             "quantity": 36.0
           }
         ]
+      },
+      "ship": {
+        "class": "Быстроходный",
+        "faction": "Эспаньол",
+        "durability": 2340,
+        "speedKnots": 9.4,
+        "maneuverability": 95,
+        "armor": 2.7,
+        "cargo": 18500,
+        "crew": 146,
+        "hullLength": 52,
+        "hullWidth": 7,
+        "displacementTons": 2565,
+        "gunCaliber": "Средние",
+        "gunsStern": 0,
+        "gunsBroadside": 24,
+        "gunsBow": 4,
+        "falconets": 10,
+        "integrity": 6
       }
     },
     {
@@ -3124,6 +3791,25 @@
             "quantity": 84.0
           }
         ]
+      },
+      "ship": {
+        "class": "Боевой",
+        "faction": "Эспаньол",
+        "durability": 3400,
+        "speedKnots": 7.2,
+        "maneuverability": 69,
+        "armor": 5.8,
+        "cargo": 25000,
+        "crew": 202,
+        "hullLength": 59,
+        "hullWidth": 7,
+        "displacementTons": 3420,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 6,
+        "gunsBroadside": 38,
+        "gunsBow": 4,
+        "falconets": 10,
+        "integrity": 6
       }
     },
     {
@@ -3161,6 +3847,25 @@
             "quantity": 411.0
           }
         ]
+      },
+      "ship": {
+        "class": "Быстроходный",
+        "faction": "Кай и Северия",
+        "durability": 1460,
+        "speedKnots": 10.7,
+        "maneuverability": 116,
+        "armor": 3.4,
+        "cargo": 12500,
+        "crew": 96,
+        "hullLength": 38,
+        "hullWidth": 6,
+        "displacementTons": 1890,
+        "gunCaliber": "Средние",
+        "gunsStern": 0,
+        "gunsBroadside": 18,
+        "gunsBow": 4,
+        "falconets": 6,
+        "integrity": 6
       }
     },
     {
@@ -3198,6 +3903,25 @@
             "quantity": 107.0
           }
         ]
+      },
+      "ship": {
+        "class": "Тяжёлый",
+        "faction": "Кай и Северия",
+        "durability": 1920,
+        "speedKnots": 9.0,
+        "maneuverability": 75,
+        "armor": 5.6,
+        "cargo": 16500,
+        "crew": 118,
+        "hullLength": 42,
+        "hullWidth": 8,
+        "displacementTons": 2610,
+        "gunCaliber": "Легкие",
+        "gunsStern": 0,
+        "gunsBroadside": 20,
+        "gunsBow": 0,
+        "falconets": 6,
+        "integrity": 6
       }
     },
     {
@@ -3227,6 +3951,24 @@
             "quantity": 24.0
           }
         ]
+      },
+      "ship": {
+        "class": "Боевой",
+        "faction": "Антилия",
+        "durability": 1160,
+        "speedKnots": 8.8,
+        "maneuverability": 82,
+        "armor": 3.6,
+        "cargo": 9500,
+        "crew": 96,
+        "hullLength": 23,
+        "hullWidth": 3,
+        "displacementTons": 1125,
+        "gunCaliber": "Легкие",
+        "gunsStern": 2,
+        "gunsBroadside": 10,
+        "gunsBow": 0,
+        "falconets": 6
       }
     },
     {
@@ -3264,6 +4006,25 @@
             "quantity": 118.0
           }
         ]
+      },
+      "ship": {
+        "class": "Транспортный",
+        "faction": "Эспаньол",
+        "durability": 1960,
+        "speedKnots": 9.4,
+        "maneuverability": 86,
+        "armor": 2.7,
+        "cargo": 24500,
+        "crew": 120,
+        "hullLength": 43,
+        "hullWidth": 7,
+        "displacementTons": 2700,
+        "gunCaliber": "Легкие",
+        "gunsStern": 2,
+        "gunsBroadside": 15,
+        "gunsBow": 0,
+        "falconets": 6,
+        "integrity": 6
       }
     },
     {
@@ -3301,6 +4062,25 @@
             "quantity": 96.0
           }
         ]
+      },
+      "ship": {
+        "class": "Тяжёлый",
+        "faction": "Антилия",
+        "durability": 2140,
+        "speedKnots": 8.5,
+        "maneuverability": 70,
+        "armor": 5.0,
+        "cargo": 18000,
+        "crew": 126,
+        "hullLength": 39,
+        "hullWidth": 4,
+        "displacementTons": 2700,
+        "gunCaliber": "Легкие",
+        "gunsStern": 0,
+        "gunsBroadside": 20,
+        "gunsBow": 0,
+        "falconets": 6,
+        "integrity": 6
       }
     },
     {
@@ -3342,6 +4122,25 @@
             "quantity": 84.0
           }
         ]
+      },
+      "ship": {
+        "class": "Тяжёлый",
+        "faction": "Кай и Северия",
+        "durability": 3180,
+        "speedKnots": 7.3,
+        "maneuverability": 61,
+        "armor": 9.0,
+        "cargo": 28500,
+        "crew": 186,
+        "hullLength": 47,
+        "hullWidth": 8,
+        "displacementTons": 4050,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 2,
+        "gunsBroadside": 44,
+        "gunsBow": 0,
+        "falconets": 10,
+        "integrity": 6
       }
     },
     {
@@ -3367,6 +4166,24 @@
             "quantity": 1000.0
           }
         ]
+      },
+      "ship": {
+        "class": "Императорский",
+        "faction": "Империя",
+        "durability": 200,
+        "speedKnots": 21.0,
+        "maneuverability": 50,
+        "armor": 1.0,
+        "cargo": 1000,
+        "crew": 8,
+        "hullLength": 1,
+        "hullWidth": 1,
+        "displacementTons": 1,
+        "gunsStern": 0,
+        "gunsBroadside": 0,
+        "gunsBow": 0,
+        "falconets": 0,
+        "specials": "Имперские NPC нейтральны"
       }
     },
     {
@@ -3396,6 +4213,26 @@
             "quantity": 20.0
           }
         ]
+      },
+      "ship": {
+        "class": "Императорский",
+        "faction": "Империя",
+        "durability": 1700,
+        "speedKnots": 9.9,
+        "maneuverability": 90,
+        "armor": 3.0,
+        "cargo": 12500,
+        "crew": 122,
+        "hullLength": 37,
+        "hullWidth": 6,
+        "displacementTons": 1800,
+        "gunCaliber": "Легкие",
+        "gunsStern": 2,
+        "gunsBroadside": 15,
+        "gunsBow": 2,
+        "falconets": 6,
+        "integrity": 6,
+        "specials": "Перемирие; Имперские NPC нейтральны"
       }
     },
     {
@@ -3425,6 +4262,26 @@
             "quantity": 150.0
           }
         ]
+      },
+      "ship": {
+        "class": "Императорский",
+        "faction": "Империя",
+        "durability": 1760,
+        "speedKnots": 7.5,
+        "maneuverability": 110,
+        "armor": 5.5,
+        "cargo": 17000,
+        "crew": 144,
+        "hullLength": 38,
+        "hullWidth": 5,
+        "displacementTons": 2610,
+        "gunCaliber": "Средние",
+        "gunsStern": 12,
+        "gunsBroadside": 11,
+        "gunsBow": 8,
+        "falconets": 8,
+        "integrity": 6,
+        "specials": "Укротитель ветра; Имперские NPC нейтральны"
       }
     },
     {
@@ -3454,6 +4311,26 @@
             "quantity": 400.0
           }
         ]
+      },
+      "ship": {
+        "class": "Императорский",
+        "faction": "Империя",
+        "durability": 3000,
+        "speedKnots": 6.6,
+        "maneuverability": 66,
+        "armor": 9.2,
+        "cargo": 28000,
+        "crew": 166,
+        "hullLength": 47,
+        "hullWidth": 9,
+        "displacementTons": 4950,
+        "gunCaliber": "Средние",
+        "gunsStern": 8,
+        "gunsBroadside": 25,
+        "gunsBow": 1,
+        "falconets": 10,
+        "integrity": 6,
+        "specials": "Особое орудие: 1; Ярость; Имперские NPC нейтральны"
       }
     },
     {
@@ -3483,6 +4360,26 @@
             "quantity": 5000.0
           }
         ]
+      },
+      "ship": {
+        "class": "Императорский",
+        "faction": "Империя",
+        "durability": 2760,
+        "speedKnots": 8.3,
+        "maneuverability": 75,
+        "armor": 6.8,
+        "cargo": 23000,
+        "crew": 176,
+        "hullLength": 48,
+        "hullWidth": 7,
+        "displacementTons": 3375,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 8,
+        "gunsBroadside": 37,
+        "gunsBow": 0,
+        "falconets": 10,
+        "integrity": 4,
+        "specials": "Уникальная роза ветров; Невидимость; Имперские NPC нейтральны"
       }
     },
     {
@@ -3512,6 +4409,26 @@
             "quantity": 10000.0
           }
         ]
+      },
+      "ship": {
+        "class": "Императорский",
+        "faction": "Империя",
+        "durability": 8000,
+        "speedKnots": 5.5,
+        "maneuverability": 42,
+        "armor": 12.0,
+        "cargo": 60000,
+        "crew": 288,
+        "hullLength": 85,
+        "hullWidth": 15,
+        "displacementTons": 5625,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 0,
+        "gunsBroadside": 85,
+        "gunsBow": 2,
+        "falconets": 18,
+        "integrity": 4,
+        "specials": "Особое орудие: 2; Слоты улучшений: +1; Мобильный аванпост; Имперские NPC нейтральны"
       }
     },
     {
@@ -3537,6 +4454,26 @@
             "quantity": 250.0
           }
         ]
+      },
+      "ship": {
+        "class": "Осадный",
+        "faction": "Премиум",
+        "durability": 900,
+        "speedKnots": 9.5,
+        "maneuverability": 120,
+        "armor": 2.2,
+        "cargo": 8500,
+        "crew": 96,
+        "hullLength": 23,
+        "hullWidth": 3,
+        "displacementTons": 1260,
+        "gunCaliber": "Легкие",
+        "gunsStern": 0,
+        "gunsBroadside": 7,
+        "gunsBow": 0,
+        "falconets": 6,
+        "integrity": 5,
+        "specials": "Мортиры калибра до 6 дюймов: 1"
       }
     },
     {
@@ -3562,6 +4499,24 @@
             "quantity": 750.0
           }
         ]
+      },
+      "ship": {
+        "class": "Боевой",
+        "faction": "Премиум",
+        "durability": 940,
+        "speedKnots": 8.5,
+        "maneuverability": 90,
+        "armor": 2.5,
+        "cargo": 11000,
+        "crew": 92,
+        "hullLength": 28,
+        "hullWidth": 5,
+        "displacementTons": 1485,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 0,
+        "gunsBroadside": 10,
+        "gunsBow": 0,
+        "falconets": 8
       }
     },
     {
@@ -3587,6 +4542,24 @@
             "quantity": 750.0
           }
         ]
+      },
+      "ship": {
+        "class": "Быстроходный",
+        "faction": "Премиум",
+        "durability": 1050,
+        "speedKnots": 10.8,
+        "maneuverability": 97,
+        "armor": 3.0,
+        "cargo": 10000,
+        "crew": 94,
+        "hullLength": 39,
+        "hullWidth": 4,
+        "displacementTons": 1575,
+        "gunCaliber": "Легкие",
+        "gunsStern": 0,
+        "gunsBroadside": 9,
+        "gunsBow": 0,
+        "falconets": 6
       }
     },
     {
@@ -3612,6 +4585,25 @@
             "quantity": 3300.0
           }
         ]
+      },
+      "ship": {
+        "class": "Боевой",
+        "faction": "Премиум",
+        "durability": 1360,
+        "speedKnots": 7.9,
+        "maneuverability": 105,
+        "armor": 5.0,
+        "cargo": 12500,
+        "crew": 108,
+        "hullLength": 22,
+        "hullWidth": 6,
+        "displacementTons": 1800,
+        "gunCaliber": "Легкие",
+        "gunsStern": 0,
+        "gunsBroadside": 10,
+        "gunsBow": 10,
+        "falconets": 6,
+        "integrity": 6
       }
     },
     {
@@ -3637,6 +4629,25 @@
             "quantity": 3000.0
           }
         ]
+      },
+      "ship": {
+        "class": "Быстроходный",
+        "faction": "Премиум",
+        "durability": 880,
+        "speedKnots": 9.8,
+        "maneuverability": 112,
+        "armor": 5.5,
+        "cargo": 7500,
+        "crew": 66,
+        "hullLength": 22,
+        "hullWidth": 3,
+        "displacementTons": 900,
+        "gunsStern": 0,
+        "gunsBroadside": 0,
+        "gunsBow": 0,
+        "falconets": 10,
+        "integrity": 6,
+        "specials": "Имперская бомбарда: 1; Уникальная роза ветров"
       }
     },
     {
@@ -3674,6 +4685,25 @@
             "quantity": 129.0
           }
         ]
+      },
+      "ship": {
+        "class": "Транспортный",
+        "faction": "Антилия",
+        "durability": 1700,
+        "speedKnots": 9.9,
+        "maneuverability": 91,
+        "armor": 3.0,
+        "cargo": 22000,
+        "crew": 108,
+        "hullLength": 43,
+        "hullWidth": 7,
+        "displacementTons": 1980,
+        "gunCaliber": "Легкие",
+        "gunsStern": 2,
+        "gunsBroadside": 15,
+        "gunsBow": 0,
+        "falconets": 10,
+        "integrity": 6
       }
     },
     {
@@ -3699,6 +4729,25 @@
             "quantity": 3600.0
           }
         ]
+      },
+      "ship": {
+        "class": "Транспортный",
+        "faction": "Премиум",
+        "durability": 1940,
+        "speedKnots": 11.5,
+        "maneuverability": 60,
+        "armor": 4.0,
+        "cargo": 33000,
+        "crew": 100,
+        "hullLength": 61,
+        "hullWidth": 6,
+        "displacementTons": 3375,
+        "gunCaliber": "Средние",
+        "gunsStern": 0,
+        "gunsBroadside": 16,
+        "gunsBow": 0,
+        "falconets": 10,
+        "integrity": 6
       }
     },
     {
@@ -3736,6 +4785,25 @@
             "quantity": 191.0
           }
         ]
+      },
+      "ship": {
+        "class": "Тяжёлый",
+        "faction": "Кай и Северия",
+        "durability": 2300,
+        "speedKnots": 8.5,
+        "maneuverability": 73,
+        "armor": 6.8,
+        "cargo": 20000,
+        "crew": 138,
+        "hullLength": 47,
+        "hullWidth": 7,
+        "displacementTons": 2475,
+        "gunCaliber": "Средние",
+        "gunsStern": 0,
+        "gunsBroadside": 27,
+        "gunsBow": 0,
+        "falconets": 10,
+        "integrity": 6
       }
     },
     {
@@ -3761,6 +4829,26 @@
             "quantity": 8000.0
           }
         ]
+      },
+      "ship": {
+        "class": "Осадный",
+        "faction": "Премиум",
+        "durability": 2100,
+        "speedKnots": 7.9,
+        "maneuverability": 85,
+        "armor": 6.0,
+        "cargo": 19000,
+        "crew": 158,
+        "hullLength": 52,
+        "hullWidth": 7,
+        "displacementTons": 2925,
+        "gunCaliber": "Средние",
+        "gunsStern": 0,
+        "gunsBroadside": 22,
+        "gunsBow": 1,
+        "falconets": 8,
+        "integrity": 6,
+        "specials": "Уникальная роза ветров; Особое орудие: 1; Мортиры калибра до 11 дюймов: 2"
       }
     },
     {
@@ -3802,6 +4890,25 @@
             "quantity": 34.0
           }
         ]
+      },
+      "ship": {
+        "class": "Транспортный",
+        "faction": "Эспаньол",
+        "durability": 2920,
+        "speedKnots": 8.2,
+        "maneuverability": 82,
+        "armor": 3.8,
+        "cargo": 38000,
+        "crew": 166,
+        "hullLength": 47,
+        "hullWidth": 7,
+        "displacementTons": 2835,
+        "gunCaliber": "Средние",
+        "gunsStern": 6,
+        "gunsBroadside": 26,
+        "gunsBow": 0,
+        "falconets": 8,
+        "integrity": 6
       }
     },
     {
@@ -3827,6 +4934,25 @@
             "quantity": 13200.0
           }
         ]
+      },
+      "ship": {
+        "class": "Боевой",
+        "faction": "Премиум",
+        "durability": 2800,
+        "speedKnots": 7.7,
+        "maneuverability": 76,
+        "armor": 7.0,
+        "cargo": 22500,
+        "crew": 178,
+        "hullLength": 53,
+        "hullWidth": 9,
+        "displacementTons": 3375,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 8,
+        "gunsBroadside": 35,
+        "gunsBow": 6,
+        "falconets": 10,
+        "integrity": 6
       }
     },
     {
@@ -3868,6 +4994,25 @@
             "quantity": 40.0
           }
         ]
+      },
+      "ship": {
+        "class": "Тяжёлый",
+        "faction": "Кай и Северия",
+        "durability": 2860,
+        "speedKnots": 7.8,
+        "maneuverability": 66,
+        "armor": 8.0,
+        "cargo": 24000,
+        "crew": 162,
+        "hullLength": 55,
+        "hullWidth": 7,
+        "displacementTons": 3240,
+        "gunCaliber": "Средние",
+        "gunsStern": 0,
+        "gunsBroadside": 35,
+        "gunsBow": 0,
+        "falconets": 10,
+        "integrity": 6
       }
     },
     {
@@ -3893,6 +5038,25 @@
             "quantity": 9600.0
           }
         ]
+      },
+      "ship": {
+        "class": "Тяжёлый",
+        "faction": "Эспаньол",
+        "durability": 3560,
+        "speedKnots": 7.0,
+        "maneuverability": 60,
+        "armor": 6.5,
+        "cargo": 29500,
+        "crew": 186,
+        "hullLength": 48,
+        "hullWidth": 6,
+        "displacementTons": 3690,
+        "gunCaliber": "Средние",
+        "gunsStern": 0,
+        "gunsBroadside": 38,
+        "gunsBow": 0,
+        "falconets": 10,
+        "integrity": 6
       }
     },
     {
@@ -3934,6 +5098,25 @@
             "quantity": 68.0
           }
         ]
+      },
+      "ship": {
+        "class": "Транспортный",
+        "faction": "Антилия",
+        "durability": 2840,
+        "speedKnots": 8.1,
+        "maneuverability": 80,
+        "armor": 4.8,
+        "cargo": 41500,
+        "crew": 170,
+        "hullLength": 48,
+        "hullWidth": 6,
+        "displacementTons": 3330,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 6,
+        "gunsBroadside": 32,
+        "gunsBow": 0,
+        "falconets": 10,
+        "integrity": 6
       }
     },
     {
@@ -3959,6 +5142,26 @@
             "quantity": 16500.0
           }
         ]
+      },
+      "ship": {
+        "class": "Боевой",
+        "faction": "Премиум",
+        "durability": 3600,
+        "speedKnots": 7.4,
+        "maneuverability": 70,
+        "armor": 7.0,
+        "cargo": 26500,
+        "crew": 192,
+        "hullLength": 48,
+        "hullWidth": 10,
+        "displacementTons": 4275,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 4,
+        "gunsBroadside": 38,
+        "gunsBow": 8,
+        "falconets": 10,
+        "integrity": 6,
+        "specials": "Мортиры калибра до 7 дюймов: 2"
       }
     },
     {
@@ -4012,6 +5215,25 @@
             "quantity": 60000.0
           }
         ]
+      },
+      "ship": {
+        "class": "Тяжёлый",
+        "faction": "Премиум",
+        "durability": 4000,
+        "speedKnots": 6.4,
+        "maneuverability": 64,
+        "armor": 8.8,
+        "cargo": 35000,
+        "crew": 206,
+        "hullLength": 48,
+        "hullWidth": 8,
+        "displacementTons": 3825,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 4,
+        "gunsBroadside": 31,
+        "gunsBow": 2,
+        "falconets": 14,
+        "integrity": 6
       }
     },
     {
@@ -4037,6 +5259,26 @@
             "quantity": 2570.0
           }
         ]
+      },
+      "ship": {
+        "class": "Быстроходный",
+        "faction": "Премиум",
+        "durability": 2980,
+        "speedKnots": 8.2,
+        "maneuverability": 85,
+        "armor": 5.0,
+        "cargo": 22000,
+        "crew": 174,
+        "hullLength": 47,
+        "hullWidth": 8,
+        "displacementTons": 3150,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 12,
+        "gunsBroadside": 28,
+        "gunsBow": 1,
+        "falconets": 10,
+        "integrity": 6,
+        "specials": "Особое орудие: 1"
       }
     },
     {
@@ -4062,6 +5304,25 @@
             "quantity": 2770.0
           }
         ]
+      },
+      "ship": {
+        "class": "Боевой",
+        "faction": "Премиум",
+        "durability": 3400,
+        "speedKnots": 7.7,
+        "maneuverability": 75,
+        "armor": 9.0,
+        "cargo": 27000,
+        "crew": 188,
+        "hullLength": 51,
+        "hullWidth": 8,
+        "displacementTons": 4140,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 4,
+        "gunsBroadside": 42,
+        "gunsBow": 4,
+        "falconets": 10,
+        "integrity": 6
       }
     },
     {
@@ -4087,6 +5348,25 @@
             "quantity": 2870.0
           }
         ]
+      },
+      "ship": {
+        "class": "Тяжёлый",
+        "faction": "Премиум",
+        "durability": 4440,
+        "speedKnots": 6.6,
+        "maneuverability": 51,
+        "armor": 9.0,
+        "cargo": 41500,
+        "crew": 216,
+        "hullLength": 61,
+        "hullWidth": 10,
+        "displacementTons": 4500,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 4,
+        "gunsBroadside": 63,
+        "gunsBow": 0,
+        "falconets": 10,
+        "integrity": 6
       }
     },
     {
@@ -4112,6 +5392,25 @@
             "quantity": 2450.0
           }
         ]
+      },
+      "ship": {
+        "class": "Боевой",
+        "faction": "Премиум",
+        "durability": 2840,
+        "speedKnots": 8.0,
+        "maneuverability": 80,
+        "armor": 6.0,
+        "cargo": 28000,
+        "crew": 194,
+        "hullLength": 45,
+        "hullWidth": 9,
+        "displacementTons": 4050,
+        "gunCaliber": "Тяжелые",
+        "gunsStern": 4,
+        "gunsBroadside": 36,
+        "gunsBow": 4,
+        "falconets": 10,
+        "integrity": 6
       }
     },
     {
@@ -4137,6 +5436,26 @@
             "quantity": 1600.0
           }
         ]
+      },
+      "ship": {
+        "class": "Транспортный",
+        "faction": "Премиум",
+        "durability": 2440,
+        "speedKnots": 8.5,
+        "maneuverability": 78,
+        "armor": 4.8,
+        "cargo": 45000,
+        "crew": 170,
+        "hullLength": 53,
+        "hullWidth": 8,
+        "displacementTons": 3150,
+        "gunCaliber": "Средние",
+        "gunsStern": 6,
+        "gunsBroadside": 26,
+        "gunsBow": 4,
+        "falconets": 8,
+        "integrity": 6,
+        "specials": "Слоты улучшений: +1"
       }
     },
     {
@@ -4162,6 +5481,26 @@
             "quantity": 1190.0
           }
         ]
+      },
+      "ship": {
+        "class": "Боевой",
+        "faction": "Премиум",
+        "durability": 2020,
+        "speedKnots": 8.6,
+        "maneuverability": 95,
+        "armor": 5.5,
+        "cargo": 18000,
+        "crew": 140,
+        "hullLength": 39,
+        "hullWidth": 6,
+        "displacementTons": 2700,
+        "gunCaliber": "Средние",
+        "gunsStern": 0,
+        "gunsBroadside": 15,
+        "gunsBow": 6,
+        "falconets": 8,
+        "integrity": 6,
+        "specials": "Мортиры калибра до 7 дюймов: 1"
       }
     },
     {
@@ -4187,6 +5526,26 @@
             "quantity": 995.0
           }
         ]
+      },
+      "ship": {
+        "class": "Осадный",
+        "faction": "Премиум",
+        "durability": 1000,
+        "speedKnots": 9.1,
+        "maneuverability": 95,
+        "armor": 1.5,
+        "cargo": 10000,
+        "crew": 72,
+        "hullLength": 22,
+        "hullWidth": 3,
+        "displacementTons": 1350,
+        "gunCaliber": "Средние",
+        "gunsStern": 0,
+        "gunsBroadside": 4,
+        "gunsBow": 0,
+        "falconets": 8,
+        "integrity": 6,
+        "specials": "Мортиры калибра до 8 дюймов: 3; Уникальная роза ветров"
       }
     },
     {
@@ -4212,6 +5571,26 @@
             "quantity": 580.0
           }
         ]
+      },
+      "ship": {
+        "class": "Осадный",
+        "faction": "Премиум",
+        "durability": 1600,
+        "speedKnots": 9.4,
+        "maneuverability": 110,
+        "armor": 2.2,
+        "cargo": 14000,
+        "crew": 84,
+        "hullLength": 27,
+        "hullWidth": 5,
+        "displacementTons": 1575,
+        "gunCaliber": "Легкие",
+        "gunsStern": 4,
+        "gunsBroadside": 8,
+        "gunsBow": 0,
+        "falconets": 6,
+        "integrity": 6,
+        "specials": "Мортиры калибра до 7 дюймов: 2"
       }
     }
   ],

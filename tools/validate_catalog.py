@@ -103,6 +103,32 @@ SHIP_RANKS = ("I", "II", "III", "IV", "V", "VI", "VII")
 # в CatalogFile.kt приложения.
 TOOL_CATEGORIES = ("Легкие", "Средние", "Тяжелые", "Мортиры")
 
+# Характеристики корабля (v0.8, wosb-android-118) — зеркало SHIP_STATS
+# в CatalogFile.kt приложения: ключ ship (только у kind ships).
+SHIP_CLASSES = ("Боевой", "Быстроходный", "Тяжёлый", "Транспортный", "Осадный", "Императорский")
+SHIP_FACTIONS = ("Премиум", "Антилия", "Эспаньол", "Кай и Северия", "Империя")
+# Словарь калибров бортовых орудий = категории орудий без мортир (v0.7).
+SHIP_GUN_CALIBERS = ("Легкие", "Средние", "Тяжелые")
+# Целочисленные поля ship-блока: имя -> (мин, макс) (границы широкие, для ловли опечаток).
+SHIP_INT_FIELDS = {
+    "durability": (1, 100000),
+    "maneuverability": (0, 1000),
+    "cargo": (0, 1000000),
+    "crew": (0, 10000),
+    "hullLength": (1, 1000),
+    "hullWidth": (1, 1000),
+    "displacementTons": (0, 100000),
+    "gunsStern": (0, 1000),
+    "gunsBroadside": (0, 1000),
+    "gunsBow": (0, 1000),
+    "falconets": (0, 1000),
+}
+SHIP_FLOAT_FIELDS = {"speedKnots": (0, 100), "armor": (0, 1000)}
+SHIP_KEYS = {
+    "class", "faction", *SHIP_INT_FIELDS.keys(), *SHIP_FLOAT_FIELDS.keys(),
+    "gunCaliber", "integrity", "specials",
+}
+
 # Файл текстов интерфейса (wosb-android-75) — зеркало TextsFile.kt приложения.
 TEXTS_APP_TAG = "wosb-texts"
 TEXTS_FORMAT_VERSION = 1
@@ -255,6 +281,69 @@ def validate(data):
                 )
             if kind != "tools":
                 errors.append(f"«{name}»: категория есть только у орудий")
+
+        # Характеристики корабля (v0.8, wosb-android-118): блок ship —
+        # только у кораблей; репозиторий строг к составу/значениям,
+        # парсер приложения терпит ОТСУТСТВИЕ блока (легаси-каталоги).
+        ship = item.get("ship")
+        if ship is not None:
+            if kind != "ships":
+                errors.append(f"«{name}»: блок ship есть только у кораблей")
+            elif not isinstance(ship, dict):
+                errors.append(f"«{name}»: ship не объект")
+            else:
+                for key in sorted(set(ship.keys()) - SHIP_KEYS):
+                    errors.append(f"«{name}»: неизвестное поле ship.{key}")
+                if not isinstance(ship.get("class"), str) or ship.get("class") not in SHIP_CLASSES:
+                    errors.append(
+                        f"«{name}»: ship.class {ship.get('class')!r} неизвестен "
+                        f"(ожидаются: {', '.join(SHIP_CLASSES)})"
+                    )
+                if not isinstance(ship.get("faction"), str) or ship.get("faction") not in SHIP_FACTIONS:
+                    errors.append(
+                        f"«{name}»: ship.faction {ship.get('faction')!r} неизвестна "
+                        f"(ожидаются: {', '.join(SHIP_FACTIONS)})"
+                    )
+                for field, (lo, hi) in SHIP_INT_FIELDS.items():
+                    value = ship.get(field)
+                    if not isinstance(value, int) or isinstance(value, bool) or not lo <= value <= hi:
+                        errors.append(f"«{name}»: ship.{field} = {value!r} — ожидалось целое {lo}–{hi}")
+                for field, (lo, hi) in SHIP_FLOAT_FIELDS.items():
+                    value = ship.get(field)
+                    if not is_num(value) or not lo <= value <= hi:
+                        errors.append(f"«{name}»: ship.{field} = {value!r} — ожидалось число {lo}–{hi}")
+                stern = ship.get("gunsStern", 0)
+                broadside = ship.get("gunsBroadside", 0)
+                bow = ship.get("gunsBow", 0)
+                total_guns = (
+                    stern if isinstance(stern, int) and not isinstance(stern, bool) else 0
+                ) + (
+                    broadside if isinstance(broadside, int) and not isinstance(broadside, bool) else 0
+                ) + (
+                    bow if isinstance(bow, int) and not isinstance(bow, bool) else 0
+                )
+                caliber = ship.get("gunCaliber")
+                if total_guns > 0:
+                    if caliber not in SHIP_GUN_CALIBERS:
+                        errors.append(
+                            f"«{name}»: при бортовых орудиях нужен ship.gunCaliber "
+                            f"(Легкие/Средние/Тяжелые), а не {caliber!r}"
+                        )
+                elif caliber is not None:
+                    errors.append(
+                        f"«{name}»: ship.gunCaliber {caliber!r} без орудий (сумма орудий 0) — убери ключ"
+                    )
+                integrity = ship.get("integrity")
+                if integrity is not None and (
+                    not isinstance(integrity, int) or isinstance(integrity, bool) or integrity < 1
+                ):
+                    errors.append(
+                        f"«{name}»: ship.integrity = {integrity!r} — целое ≥ 1 "
+                        "(потоплений до капремонта; нет ключа — бесконечная)"
+                    )
+                specials = ship.get("specials")
+                if specials is not None and (not isinstance(specials, str) or not specials.strip()):
+                    errors.append(f"«{name}»: ship.specials — непустая строка либо ключ отсутствует")
 
     # --- Проход 2: ссылки, рецепты, мануфактуры ----------------------
     for item in items:
