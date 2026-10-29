@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1793183752009,
+  "exportedAt": 1793286503874,
   "source": "bot-db",
   "items": [
     {
@@ -1309,7 +1309,7 @@
       "name": "La Couronne (I)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 12,
+      "sortOrder": 10,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1350,7 +1350,7 @@
       "name": "La Sirene (II)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 67,
+      "sortOrder": 50,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1877,7 +1877,7 @@
       "name": "Adventure (II)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 43,
+      "sortOrder": 42,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1980,7 +1980,7 @@
       "name": "Sans Pareil (II)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 68,
+      "sortOrder": 67,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2021,7 +2021,7 @@
       "name": "Victory (I)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 13,
+      "sortOrder": 11,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2198,7 +2198,7 @@
       "name": "Ingermanland (II)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 69,
+      "sortOrder": 68,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2317,7 +2317,7 @@
       "name": "La Royale (I)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 10,
+      "sortOrder": 6,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2356,7 +2356,7 @@
       "name": "12 Apostolov (I)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 11,
+      "sortOrder": 9,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -2706,7 +2706,7 @@
       "name": "Redoutable (II)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 50,
+      "sortOrder": 43,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3089,7 +3089,7 @@
       "name": "Montanes (II)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 39,
+      "sortOrder": 14,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3307,7 +3307,7 @@
       "name": "St. Pavel (II)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 40,
+      "sortOrder": 39,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3460,7 +3460,7 @@
       "name": "Octopus (II)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 42,
+      "sortOrder": 41,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3489,7 +3489,7 @@
       "name": "Huracan (I)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 9,
+      "sortOrder": 5,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3874,7 +3874,7 @@
       "name": "San Juan Nepomuceno (III)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 70,
+      "sortOrder": 69,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3899,7 +3899,7 @@
       "name": "Bonhomme Richard (II)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 14,
+      "sortOrder": 13,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3940,7 +3940,7 @@
       "name": "Sovereign (I)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 2,
+      "sortOrder": 1,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -3993,7 +3993,7 @@
       "name": "Vasa (II)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 41,
+      "sortOrder": 40,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -4018,7 +4018,7 @@
       "name": "Firestorm (I)",
       "group": 3,
       "weight": 0,
-      "sortOrder": 3,
+      "sortOrder": 2,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -4035,6 +4035,106 @@
           {
             "name": "Монеты",
             "quantity": 2570.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "De Zeven Provincien (I)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 3,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "rank": "I",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Монеты",
+            "quantity": 2770.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Santisima Trinidad (I)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 4,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "rank": "I",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Монеты",
+            "quantity": 2870.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Neptuno (II)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 12,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "rank": "II",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Монеты",
+            "quantity": 2450.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Prins Willem (III)",
+      "group": 3,
+      "weight": 0,
+      "sortOrder": 70,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "rank": "III",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Монеты",
+            "quantity": 1600.0
           }
         ]
       }
