@@ -4168,7 +4168,7 @@
         ]
       },
       "ship": {
-        "class": "Императорский",
+        "class": "Имперский",
         "faction": "Империя",
         "durability": 200,
         "speedKnots": 21.0,
@@ -4215,7 +4215,7 @@
         ]
       },
       "ship": {
-        "class": "Императорский",
+        "class": "Имперский",
         "faction": "Империя",
         "durability": 1700,
         "speedKnots": 9.9,
@@ -4264,7 +4264,7 @@
         ]
       },
       "ship": {
-        "class": "Императорский",
+        "class": "Имперский",
         "faction": "Империя",
         "durability": 1760,
         "speedKnots": 7.5,
@@ -4313,7 +4313,7 @@
         ]
       },
       "ship": {
-        "class": "Императорский",
+        "class": "Имперский",
         "faction": "Империя",
         "durability": 3000,
         "speedKnots": 6.6,
@@ -4362,7 +4362,7 @@
         ]
       },
       "ship": {
-        "class": "Императорский",
+        "class": "Имперский",
         "faction": "Империя",
         "durability": 2760,
         "speedKnots": 8.3,
@@ -4411,7 +4411,7 @@
         ]
       },
       "ship": {
-        "class": "Императорский",
+        "class": "Имперский",
         "faction": "Империя",
         "durability": 8000,
         "speedKnots": 5.5,
