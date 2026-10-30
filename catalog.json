@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1793298795317,
+  "exportedAt": 1793330927964,
   "source": "bot-db",
   "items": [
     {
@@ -2590,7 +2590,7 @@
       },
       "ship": {
         "class": "Осадный",
-        "faction": "Эспаньол",
+        "faction": "Премиум",
         "durability": 3000,
         "speedKnots": 7.4,
         "maneuverability": 85,
