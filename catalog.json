@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1793330927964,
+  "exportedAt": 1793337689898,
   "source": "bot-db",
   "items": [
     {
@@ -1997,7 +1997,7 @@
       },
       "ship": {
         "class": "Осадный",
-        "faction": "Антилия",
+        "faction": "Премиум",
         "durability": 2800,
         "speedKnots": 8.0,
         "maneuverability": 95,
