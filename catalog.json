@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1793342885637,
+  "exportedAt": 1793342961547,
   "source": "bot-db",
   "items": [
     {
@@ -2249,8 +2249,7 @@
         "gunsBroadside": 49,
         "gunsBow": 4,
         "falconets": 10,
-        "integrity": 6,
-        "specials": "-"
+        "integrity": 6
       }
     },
     {
