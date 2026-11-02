@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1793657571381,
+  "exportedAt": 1793659008480,
   "source": "bot-db",
   "items": [
     {
@@ -962,7 +962,7 @@
       "name": "8-фн. Пушка",
       "group": 2,
       "weight": 0,
-      "sortOrder": 40,
+      "sortOrder": 41,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -988,10 +988,10 @@
       }
     },
     {
-      "name": "8-фн. Кулеврина",
+      "name": "8-фн. Кульверина",
       "group": 2,
       "weight": 0,
-      "sortOrder": 41,
+      "sortOrder": 43,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1020,7 +1020,7 @@
       "name": "16-фн. Карронада",
       "group": 2,
       "weight": 0,
-      "sortOrder": 42,
+      "sortOrder": 45,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1049,7 +1049,7 @@
       "name": "6-фн. Сдвоенная",
       "group": 2,
       "weight": 0,
-      "sortOrder": 43,
+      "sortOrder": 48,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1078,7 +1078,7 @@
       "name": "Алхимический огонь",
       "group": 2,
       "weight": 0,
-      "sortOrder": 49,
+      "sortOrder": 62,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1111,7 +1111,7 @@
       "name": "18-фн. Пушка",
       "group": 2,
       "weight": 0,
-      "sortOrder": 44,
+      "sortOrder": 50,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1144,7 +1144,7 @@
       "name": "18-фн. Длинная пушка",
       "group": 2,
       "weight": 0,
-      "sortOrder": 45,
+      "sortOrder": 53,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1177,7 +1177,7 @@
       "name": "28-фн. Карронада",
       "group": 2,
       "weight": 0,
-      "sortOrder": 46,
+      "sortOrder": 56,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1210,7 +1210,7 @@
       "name": "14-фн. Сдвоенная",
       "group": 2,
       "weight": 0,
-      "sortOrder": 47,
+      "sortOrder": 60,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1243,7 +1243,7 @@
       "name": "10-фн. Строенная",
       "group": 2,
       "weight": 0,
-      "sortOrder": 48,
+      "sortOrder": 61,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1276,7 +1276,7 @@
       "name": "Имперская бомбарда",
       "group": 2,
       "weight": 0,
-      "sortOrder": 50,
+      "sortOrder": 63,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1547,7 +1547,7 @@
       "name": "Мортира 6-дюйм.",
       "group": 2,
       "weight": 0,
-      "sortOrder": 61,
+      "sortOrder": 74,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1576,7 +1576,7 @@
       "name": "Мортира 7-дюйм.",
       "group": 2,
       "weight": 0,
-      "sortOrder": 62,
+      "sortOrder": 75,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1605,7 +1605,7 @@
       "name": "Мортира 8-дюйм.",
       "group": 2,
       "weight": 0,
-      "sortOrder": 63,
+      "sortOrder": 76,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1638,7 +1638,7 @@
       "name": "Мортира 9-дюйм.",
       "group": 2,
       "weight": 0,
-      "sortOrder": 64,
+      "sortOrder": 77,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1671,7 +1671,7 @@
       "name": "Мортира 10-дюйм.",
       "group": 2,
       "weight": 0,
-      "sortOrder": 65,
+      "sortOrder": 78,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1708,7 +1708,7 @@
       "name": "Мортира 11-дюйм.",
       "group": 2,
       "weight": 0,
-      "sortOrder": 66,
+      "sortOrder": 79,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1745,7 +1745,7 @@
       "name": "32-фн. Пушка",
       "group": 2,
       "weight": 0,
-      "sortOrder": 56,
+      "sortOrder": 65,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1782,7 +1782,7 @@
       "name": "32-фн. Длинная пушка",
       "group": 2,
       "weight": 0,
-      "sortOrder": 57,
+      "sortOrder": 66,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1819,7 +1819,7 @@
       "name": "42-фн. Карронада",
       "group": 2,
       "weight": 0,
-      "sortOrder": 58,
+      "sortOrder": 68,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1856,7 +1856,7 @@
       "name": "20-фн. Сдвоенная",
       "group": 2,
       "weight": 0,
-      "sortOrder": 59,
+      "sortOrder": 72,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -1893,7 +1893,7 @@
       "name": "16-фн. Строенная",
       "group": 2,
       "weight": 0,
-      "sortOrder": 60,
+      "sortOrder": 73,
       "isSea": false,
       "isManufactory": false,
       "isCraft": true,
@@ -5591,6 +5591,506 @@
         "falconets": 6,
         "integrity": 6,
         "specials": "Мортиры калибра до 7 дюймов: 2"
+      }
+    },
+    {
+      "name": "6-фн. Ржавая пушка",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 40,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "category": "Легкие",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Золото",
+            "quantity": 50.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "6-фн. Кульверина",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 42,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "category": "Легкие",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Золото",
+            "quantity": 150.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "12-фн. Карронада",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 44,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "category": "Легкие",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Золото",
+            "quantity": 200.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Василиск",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 46,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "category": "Легкие",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Пиратский жетон",
+            "quantity": 45.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Посейдон",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 47,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "category": "Легкие",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Пиратский жетон",
+            "quantity": 55.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "16-фн. Пушка",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 49,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "category": "Средние",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Золото",
+            "quantity": 200.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "20-фн. Адмиральская",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 51,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "category": "Средние",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Пиратский жетон",
+            "quantity": 40.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "16-фн. Кульверина",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 52,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "category": "Средние",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Золото",
+            "quantity": 300.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "22-фн. Испепеляющая",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 54,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "category": "Средние",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Пиратский жетон",
+            "quantity": 60.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "24-фн. Карронада",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 55,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "category": "Средние",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Золото",
+            "quantity": 400.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "32-фн. Буревестник",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 57,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "category": "Средние",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Пиратский жетон",
+            "quantity": 80.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Зевс",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 58,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "category": "Средние",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Пиратский жетон",
+            "quantity": 120.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Онагр",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 59,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "category": "Средние",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Пиратский жетон",
+            "quantity": 150.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "36-фн. Инрог",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 64,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "category": "Тяжелые",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Пиратский жетон",
+            "quantity": 100.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "38-фн. Иерихон",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 67,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "category": "Тяжелые",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Пиратский жетон",
+            "quantity": 150.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "48-фн. Исполин",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 69,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "category": "Тяжелые",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Пиратский жетон",
+            "quantity": 200.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Гильгамеш",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 70,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "category": "Тяжелые",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Пиратский жетон",
+            "quantity": 300.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Мьельнир",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 71,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "category": "Тяжелые",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Пиратский жетон",
+            "quantity": 380.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Тяжёлая мортира",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 80,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "category": "Мортиры",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Пиратский жетон",
+            "quantity": 670.0
+          }
+        ]
+      }
+    },
+    {
+      "name": "Метатель бочек",
+      "group": 2,
+      "weight": 0,
+      "sortOrder": 81,
+      "isSea": false,
+      "isManufactory": false,
+      "isCraft": true,
+      "isMarket": false,
+      "isCurrency": false,
+      "isToolMaterial": false,
+      "isShipMaterial": false,
+      "isAmmoMaterial": false,
+      "category": "Мортиры",
+      "recipe": {
+        "outputQuantity": 1.0,
+        "craftTime": 0.0,
+        "materials": [
+          {
+            "name": "Пиратский жетон",
+            "quantity": 500.0
+          }
+        ]
       }
     }
   ],
