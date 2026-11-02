@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1793342961547,
+  "exportedAt": 1793657510541,
   "source": "bot-db",
   "items": [
     {
@@ -5174,7 +5174,7 @@
       "isCraft": false,
       "isMarket": false,
       "isCurrency": false,
-      "isToolMaterial": false,
+      "isToolMaterial": true,
       "isShipMaterial": true,
       "isAmmoMaterial": false
     },
