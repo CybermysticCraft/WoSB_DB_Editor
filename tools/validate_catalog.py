@@ -129,6 +129,25 @@ SHIP_KEYS = {
     "gunCaliber", "integrity", "specials",
 }
 
+# Характеристики орудия (v0.9, wosb-android-142) — зеркало GUN_TYPES /
+# GUN_POSITIVE_BOUNDS в CatalogFile.kt приложения: ключ gun (только у
+# kind tools). Данные — из файла владельца «Орудия_WoSB» (42 орудия).
+GUN_TYPES = ("Пушка", "Длинная", "Карронада", "Бомбарда", "Спец.", "Мортира")
+# Широкие границы положительных чисел (ловим опечатки, не игровые лимиты).
+GUN_FLOAT_FIELDS = {
+    "penetration": (0, 100000),
+    "reloadSec": (0, 100000),
+    "spread": (0, 100000),
+    "blastRadius": (0, 100000),
+    "convergence": (0, 100000),
+    "aimSec": (0, 100000),
+    "fireTimeSec": (0, 100000),
+}
+GUN_KEYS = {
+    "type", "rangeMax", "rangeMin", "maxAngleDeg", "damage", "structureDamage",
+    *GUN_FLOAT_FIELDS.keys(),
+}
+
 # Файл текстов интерфейса (wosb-android-75) — зеркало TextsFile.kt приложения.
 TEXTS_APP_TAG = "wosb-texts"
 TEXTS_FORMAT_VERSION = 1
@@ -281,6 +300,49 @@ def validate(data):
                 )
             if kind != "tools":
                 errors.append(f"«{name}»: категория есть только у орудий")
+
+        # Характеристики орудия (v0.9, wosb-android-142): блок gun —
+        # только у орудий; репозиторий строг к составу/значениям,
+        # парсер приложения терпит ОТСУТСТВИЕ блока (легаси-каталоги).
+        gun = item.get("gun")
+        if gun is not None:
+            if kind != "tools":
+                errors.append(f"«{name}»: блок gun есть только у орудий")
+            elif not isinstance(gun, dict):
+                errors.append(f"«{name}»: gun не объект")
+            else:
+                for key in sorted(set(gun.keys()) - GUN_KEYS):
+                    errors.append(f"«{name}»: неизвестное поле gun.{key}")
+                if gun.get("type") not in GUN_TYPES:
+                    errors.append(
+                        f"«{name}»: gun.type {gun.get('type')!r} неизвестен "
+                        f"(ожидаются: {', '.join(GUN_TYPES)})"
+                    )
+                range_max = gun.get("rangeMax")
+                if not is_num(range_max) or range_max <= 0:
+                    errors.append(f"«{name}»: gun.rangeMax = {range_max!r} — число больше 0")
+                range_min = gun.get("rangeMin")
+                if range_min is not None:
+                    if not is_num(range_min) or range_min <= 0:
+                        errors.append(f"«{name}»: gun.rangeMin = {range_min!r} — число больше 0")
+                    elif is_num(range_max) and range_min >= range_max:
+                        errors.append(
+                            f"«{name}»: gun.rangeMin ({range_min}) должен быть "
+                            f"меньше rangeMax ({range_max})"
+                        )
+                angle = gun.get("maxAngleDeg")
+                if angle is not None and (not is_num(angle) or not 0 <= angle <= 90):
+                    errors.append(f"«{name}»: gun.maxAngleDeg = {angle!r} — число 0–90")
+                for field, (lo, hi) in GUN_FLOAT_FIELDS.items():
+                    value = gun.get(field)
+                    if value is not None and (not is_num(value) or not lo <= value <= hi):
+                        errors.append(f"«{name}»: gun.{field} = {value!r} — ожидалось число {lo}–{hi}")
+                for field in ("damage", "structureDamage"):
+                    value = gun.get(field)
+                    if value is not None and (not isinstance(value, str) or not value.strip()):
+                        errors.append(
+                            f"«{name}»: gun.{field} — непустая строка либо ключ отсутствует"
+                        )
 
         # Характеристики корабля (v0.8, wosb-android-118): блок ship —
         # только у кораблей; репозиторий строг к составу/значениям,

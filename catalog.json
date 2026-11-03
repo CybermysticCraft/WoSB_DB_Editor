@@ -972,6 +972,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Легкие",
+      "gun": {
+        "type": "Пушка",
+        "penetration": 16.0,
+        "reloadSec": 11.0,
+        "rangeMax": 135.0,
+        "maxAngleDeg": 19.0,
+        "spread": 8.5
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -988,7 +996,7 @@
       }
     },
     {
-      "name": "8-фн. Кульверина",
+      "name": "8-фн. Кулеврина",
       "group": 2,
       "weight": 0,
       "sortOrder": 43,
@@ -1001,6 +1009,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Легкие",
+      "gun": {
+        "type": "Длинная",
+        "penetration": 15.0,
+        "reloadSec": 12.5,
+        "rangeMax": 145.0,
+        "maxAngleDeg": 10.0,
+        "spread": 6.0
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1030,6 +1046,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Легкие",
+      "gun": {
+        "type": "Карронада",
+        "penetration": 21.5,
+        "reloadSec": 18.0,
+        "rangeMax": 115.0,
+        "maxAngleDeg": 14.0,
+        "spread": 11.0
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1059,6 +1083,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Легкие",
+      "gun": {
+        "type": "Бомбарда",
+        "penetration": 16.0,
+        "reloadSec": 19.5,
+        "rangeMax": 125.0,
+        "maxAngleDeg": 9.0,
+        "spread": 8.5
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1088,6 +1120,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Средние",
+      "gun": {
+        "type": "Спец.",
+        "damage": "80/с",
+        "rangeMax": 65.0,
+        "maxAngleDeg": 6.0,
+        "spread": 5.0,
+        "fireTimeSec": 468.0
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1121,6 +1161,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Средние",
+      "gun": {
+        "type": "Пушка",
+        "penetration": 17.0,
+        "reloadSec": 12.5,
+        "rangeMax": 135.0,
+        "maxAngleDeg": 24.0,
+        "spread": 12.0
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1154,6 +1202,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Средние",
+      "gun": {
+        "type": "Длинная",
+        "penetration": 16.0,
+        "reloadSec": 14.5,
+        "rangeMax": 145.0,
+        "maxAngleDeg": 12.0,
+        "spread": 8.5
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1187,6 +1243,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Средние",
+      "gun": {
+        "type": "Карронада",
+        "penetration": 23.0,
+        "reloadSec": 21.0,
+        "rangeMax": 115.0,
+        "maxAngleDeg": 18.0,
+        "spread": 15.5
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1220,6 +1284,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Средние",
+      "gun": {
+        "type": "Бомбарда",
+        "penetration": 17.0,
+        "reloadSec": 22.0,
+        "rangeMax": 125.0,
+        "maxAngleDeg": 11.0,
+        "spread": 12.0
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1253,6 +1325,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Средние",
+      "gun": {
+        "type": "Бомбарда",
+        "penetration": 14.0,
+        "reloadSec": 27.0,
+        "rangeMax": 135.0,
+        "maxAngleDeg": 7.0,
+        "spread": 13.5
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1286,6 +1366,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Средние",
+      "gun": {
+        "type": "Спец.",
+        "penetration": 34.0,
+        "reloadSec": 22.0,
+        "rangeMax": 130.0,
+        "maxAngleDeg": 6.0,
+        "spread": 12.0
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1557,6 +1645,16 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Мортиры",
+      "gun": {
+        "type": "Мортира",
+        "damage": "100",
+        "reloadSec": 20.0,
+        "rangeMin": 55.0,
+        "rangeMax": 130.0,
+        "blastRadius": 11.0,
+        "convergence": 3.0,
+        "structureDamage": "×2"
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1586,6 +1684,16 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Мортиры",
+      "gun": {
+        "type": "Мортира",
+        "damage": "125",
+        "reloadSec": 24.0,
+        "rangeMin": 70.0,
+        "rangeMax": 140.0,
+        "blastRadius": 12.0,
+        "convergence": 3.5,
+        "structureDamage": "×2"
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1615,6 +1723,16 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Мортиры",
+      "gun": {
+        "type": "Мортира",
+        "damage": "150",
+        "reloadSec": 31.0,
+        "rangeMin": 80.0,
+        "rangeMax": 150.0,
+        "blastRadius": 13.0,
+        "convergence": 4.0,
+        "structureDamage": "×2"
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1648,6 +1766,16 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Мортиры",
+      "gun": {
+        "type": "Мортира",
+        "damage": "180",
+        "reloadSec": 35.0,
+        "rangeMin": 70.0,
+        "rangeMax": 145.0,
+        "blastRadius": 14.0,
+        "convergence": 4.5,
+        "structureDamage": "×2"
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1681,6 +1809,16 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Мортиры",
+      "gun": {
+        "type": "Мортира",
+        "damage": "210",
+        "reloadSec": 38.0,
+        "rangeMin": 60.0,
+        "rangeMax": 140.0,
+        "blastRadius": 15.0,
+        "convergence": 5.0,
+        "structureDamage": "×2"
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1718,6 +1856,16 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Мортиры",
+      "gun": {
+        "type": "Мортира",
+        "damage": "245",
+        "reloadSec": 42.0,
+        "rangeMin": 55.0,
+        "rangeMax": 135.0,
+        "blastRadius": 16.0,
+        "convergence": 5.5,
+        "structureDamage": "×2"
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1755,6 +1903,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Тяжелые",
+      "gun": {
+        "type": "Пушка",
+        "penetration": 20.0,
+        "reloadSec": 15.5,
+        "rangeMax": 135.0,
+        "maxAngleDeg": 32.0,
+        "spread": 15.5
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1792,6 +1948,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Тяжелые",
+      "gun": {
+        "type": "Длинная",
+        "penetration": 18.5,
+        "reloadSec": 18.0,
+        "rangeMax": 145.0,
+        "maxAngleDeg": 16.0,
+        "spread": 11.0
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1829,6 +1993,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Тяжелые",
+      "gun": {
+        "type": "Карронада",
+        "penetration": 26.5,
+        "reloadSec": 26.0,
+        "rangeMax": 115.0,
+        "maxAngleDeg": 24.0,
+        "spread": 20.0
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1866,6 +2038,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Тяжелые",
+      "gun": {
+        "type": "Бомбарда",
+        "penetration": 20.0,
+        "reloadSec": 28.0,
+        "rangeMax": 125.0,
+        "maxAngleDeg": 14.0,
+        "spread": 15.5
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -1903,6 +2083,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Тяжелые",
+      "gun": {
+        "type": "Бомбарда",
+        "penetration": 16.5,
+        "reloadSec": 34.0,
+        "rangeMax": 135.0,
+        "maxAngleDeg": 10.0,
+        "spread": 17.5
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -5607,6 +5795,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Легкие",
+      "gun": {
+        "type": "Пушка",
+        "penetration": 15.0,
+        "reloadSec": 12.5,
+        "rangeMax": 130.0,
+        "maxAngleDeg": 21.0,
+        "spread": 7.5
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -5619,7 +5815,7 @@
       }
     },
     {
-      "name": "6-фн. Кульверина",
+      "name": "6-фн. Кулеврина",
       "group": 2,
       "weight": 0,
       "sortOrder": 42,
@@ -5632,6 +5828,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Легкие",
+      "gun": {
+        "type": "Длинная",
+        "penetration": 14.0,
+        "reloadSec": 14.5,
+        "rangeMax": 140.0,
+        "maxAngleDeg": 11.0,
+        "spread": 5.0
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -5657,6 +5861,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Легкие",
+      "gun": {
+        "type": "Карронада",
+        "penetration": 19.5,
+        "reloadSec": 20.5,
+        "rangeMax": 110.0,
+        "maxAngleDeg": 16.0,
+        "spread": 9.0
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -5682,6 +5894,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Легкие",
+      "gun": {
+        "type": "Бомбарда",
+        "penetration": 17.5,
+        "reloadSec": 18.5,
+        "rangeMax": 155.0,
+        "maxAngleDeg": 8.0,
+        "spread": 3.5
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -5707,6 +5927,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Легкие",
+      "gun": {
+        "type": "Бомбарда",
+        "penetration": 25.5,
+        "reloadSec": 16.5,
+        "rangeMax": 85.0,
+        "maxAngleDeg": 19.0,
+        "spread": 10.5
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -5732,6 +5960,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Средние",
+      "gun": {
+        "type": "Пушка",
+        "penetration": 16.0,
+        "reloadSec": 14.5,
+        "rangeMax": 130.0,
+        "maxAngleDeg": 26.0,
+        "spread": 10.5
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -5757,6 +5993,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Средние",
+      "gun": {
+        "type": "Пушка",
+        "penetration": 19.5,
+        "reloadSec": 16.0,
+        "rangeMax": 130.0,
+        "maxAngleDeg": 19.0,
+        "spread": 10.5
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -5769,7 +6013,7 @@
       }
     },
     {
-      "name": "16-фн. Кульверина",
+      "name": "16-фн. Кулеврина",
       "group": 2,
       "weight": 0,
       "sortOrder": 52,
@@ -5782,6 +6026,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Средние",
+      "gun": {
+        "type": "Длинная",
+        "penetration": 15.0,
+        "reloadSec": 17.0,
+        "rangeMax": 140.0,
+        "maxAngleDeg": 13.0,
+        "spread": 7.0
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -5807,6 +6059,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Средние",
+      "gun": {
+        "type": "Длинная",
+        "penetration": 18.0,
+        "reloadSec": 22.5,
+        "rangeMax": 149.0,
+        "maxAngleDeg": 9.0,
+        "spread": 10.0
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -5832,6 +6092,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Средние",
+      "gun": {
+        "type": "Карронада",
+        "penetration": 21.0,
+        "reloadSec": 23.5,
+        "rangeMax": 110.0,
+        "maxAngleDeg": 20.0,
+        "spread": 13.0
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -5857,6 +6125,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Средние",
+      "gun": {
+        "type": "Карронада",
+        "penetration": 25.0,
+        "reloadSec": 25.5,
+        "rangeMax": 105.0,
+        "maxAngleDeg": 14.0,
+        "spread": 13.5
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -5882,6 +6158,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Средние",
+      "gun": {
+        "type": "Бомбарда",
+        "penetration": 19.0,
+        "reloadSec": 21.5,
+        "rangeMax": 155.0,
+        "maxAngleDeg": 10.0,
+        "spread": 5.0
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -5907,6 +6191,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Средние",
+      "gun": {
+        "type": "Бомбарда",
+        "penetration": 27.5,
+        "reloadSec": 19.5,
+        "rangeMax": 85.0,
+        "maxAngleDeg": 23.0,
+        "spread": 14.5
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -5932,6 +6224,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Тяжелые",
+      "gun": {
+        "type": "Пушка",
+        "penetration": 22.5,
+        "reloadSec": 20.0,
+        "rangeMax": 130.0,
+        "maxAngleDeg": 26.0,
+        "spread": 14.0
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -5957,6 +6257,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Тяжелые",
+      "gun": {
+        "type": "Длинная",
+        "penetration": 21.0,
+        "reloadSec": 28.0,
+        "rangeMax": 149.0,
+        "maxAngleDeg": 12.0,
+        "spread": 13.0
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -5982,6 +6290,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Тяжелые",
+      "gun": {
+        "type": "Карронада",
+        "penetration": 29.5,
+        "reloadSec": 32.0,
+        "rangeMax": 105.0,
+        "maxAngleDeg": 19.0,
+        "spread": 18.0
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -6007,6 +6323,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Тяжелые",
+      "gun": {
+        "type": "Бомбарда",
+        "penetration": 22.0,
+        "reloadSec": 26.5,
+        "rangeMax": 155.0,
+        "maxAngleDeg": 14.0,
+        "spread": 6.5
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -6032,6 +6356,14 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Тяжелые",
+      "gun": {
+        "type": "Бомбарда",
+        "penetration": 32.0,
+        "reloadSec": 24.0,
+        "rangeMax": 85.0,
+        "maxAngleDeg": 31.0,
+        "spread": 19.0
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -6057,6 +6389,17 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Мортиры",
+      "gun": {
+        "type": "Мортира",
+        "damage": "155*",
+        "reloadSec": 34.0,
+        "rangeMin": 85.0,
+        "rangeMax": 150.0,
+        "blastRadius": 10.0,
+        "convergence": 2.5,
+        "aimSec": 4.8,
+        "structureDamage": "×2"
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
@@ -6082,6 +6425,17 @@
       "isShipMaterial": false,
       "isAmmoMaterial": false,
       "category": "Мортиры",
+      "gun": {
+        "type": "Мортира",
+        "damage": "90*",
+        "reloadSec": 25.0,
+        "rangeMin": 75.0,
+        "rangeMax": 135.0,
+        "blastRadius": 22.0,
+        "convergence": 2.0,
+        "aimSec": 3.5,
+        "structureDamage": "×2"
+      },
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
