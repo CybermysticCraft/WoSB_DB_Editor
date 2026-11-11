@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1794433803130,
+  "exportedAt": 1794434256968,
   "source": "bot-db",
   "items": [
     {
@@ -2140,7 +2140,7 @@
       },
       "ship": {
         "class": "Осадный",
-        "faction": "Кай и Северия",
+        "faction": "Премиум",
         "durability": 2000,
         "speedKnots": 8.0,
         "maneuverability": 85,
@@ -5229,7 +5229,7 @@
       },
       "ship": {
         "class": "Тяжёлый",
-        "faction": "Эспаньол",
+        "faction": "Премиум",
         "durability": 3560,
         "speedKnots": 7.0,
         "maneuverability": 60,
