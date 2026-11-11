@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1793659008480,
+  "exportedAt": 1794433536857,
   "source": "bot-db",
   "items": [
     {
@@ -3374,7 +3374,7 @@
       },
       "ship": {
         "class": "Тяжёлый",
-        "faction": "Эспаньол",
+        "faction": "Премиум",
         "durability": 4240,
         "speedKnots": 6.3,
         "maneuverability": 54,
@@ -4600,7 +4600,7 @@
       },
       "ship": {
         "class": "Имперский",
-        "faction": "Империя",
+        "faction": "Премиум",
         "durability": 8000,
         "speedKnots": 5.5,
         "maneuverability": 42,
