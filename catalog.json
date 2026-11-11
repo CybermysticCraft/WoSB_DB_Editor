@@ -1,7 +1,7 @@
 {
   "app": "wosb-catalog",
   "formatVersion": 2,
-  "exportedAt": 1794433536857,
+  "exportedAt": 1794433803130,
   "source": "bot-db",
   "items": [
     {
@@ -4600,7 +4600,7 @@
       },
       "ship": {
         "class": "Имперский",
-        "faction": "Премиум",
+        "faction": "Империя",
         "durability": 8000,
         "speedKnots": 5.5,
         "maneuverability": 42,
@@ -5100,7 +5100,7 @@
       }
     },
     {
-      "name": "Azov (III)",
+      "name": "Azov (II)",
       "group": 3,
       "weight": 0,
       "sortOrder": 72,
@@ -5112,7 +5112,7 @@
       "isToolMaterial": false,
       "isShipMaterial": false,
       "isAmmoMaterial": false,
-      "rank": "III",
+      "rank": "II",
       "recipe": {
         "outputQuantity": 1.0,
         "craftTime": 0.0,
